@@ -5,25 +5,27 @@ public class PlayerMovement : MonoBehaviour
 
     //variables
 
-[SerializeField] private int _edad=17;
-private float _velocidad= 15.5f;
-private string nombre="Sofia";
-private bool isJumping=false;
-public float fuerza= 1000f;
+public float altura=1.62f;
+public int edad=17;
+public string nombre="Sofia";
+public bool puedevotar=true;
 
-[SerializeField] private Rigidbody2D _rigibody2D;
+public GameObject gameObject;
+public Rigidbody2D rigibody2D;
+public Collider2D collider2D;
+public SpriteRenderer spriteRenderer;
+public Transform transform;
 
-    // Start is called once before the first execution of Update after the MonoBehaviour is created 
-    void Start()
-    {
-       _rigibody2D.AddForce(Vector2.right * fuerza);
-       
-        Debug.Log("Mi edad es: "+_edad);
-    }
+private void Start()
+{
+    Debug.Log("Hola: " + nombre +  " tu edad es: " + edad  + " tu altura es: " + altura);
+    rigibody2D.simulated = false;
+    spriteRenderer.color = Color.red;
+    transform.position = new Vector3(10, 0, 0);
+}
+private void Update()
+{
 
-    // Update is called once per frame
-    void Update()
-    {
-        Debug.Log("Edad: "+_edad);
-    }
+}
+
 }

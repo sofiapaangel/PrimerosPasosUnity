@@ -251,7 +251,7 @@ Transform:
   m_GameObject: {fileID: 252408}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: 0.70634776, w: 0.707865}
-  m_LocalPosition: {x: 8.34, y: -2.31, z: 4.49}
+  m_LocalPosition: {x: 8.92, y: -4.5521297, z: 4.49}
   m_LocalScale: {x: 2.1118095, y: 0.6542499, z: 0.98408294}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -261,7 +261,7 @@ Transform:
   - {fileID: 1645083269}
   - {fileID: 1738399126}
   - {fileID: 490530781}
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 198396608}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 89.877}
 --- !u!1 &111609297
 GameObject:
@@ -401,6 +401,38 @@ Transform:
   m_Children: []
   m_Father: {fileID: 252411}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 89.877}
+--- !u!1 &198396607
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 198396608}
+  m_Layer: 0
+  m_Name: pinos
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &198396608
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 198396607}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.58, y: 2.24213, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 252411}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &257892819
 GameObject:
   m_ObjectHideFlags: 0
@@ -929,8 +961,8 @@ Transform:
   m_GameObject: {fileID: 456879424}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.38, y: 5.03, z: 0}
-  m_LocalScale: {x: 1.1649294, y: 1.1233658, z: 1.4888039}
+  m_LocalPosition: {x: -2.46, y: 4.91, z: 0}
+  m_LocalScale: {x: 0.74430335, y: 0.74029803, z: 1.4888039}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -1610,7 +1642,7 @@ Transform:
   m_GameObject: {fileID: 956678579}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.5, z: -10}
+  m_LocalPosition: {x: -0.23, y: 0.39, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1746,7 +1778,7 @@ Transform:
   m_GameObject: {fileID: 1256366087}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -8.52, y: 0.53999996, z: 0}
+  m_LocalPosition: {x: -8.75, y: 0.42999995, z: 0}
   m_LocalScale: {x: 1.6071, y: 1.4643, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -3061,7 +3093,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1970699250}
   m_Layer: 0
-  m_Name: pinos
+  m_Name: obstaculos
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3227,6 +3259,6 @@ SceneRoots:
   m_Roots:
   - {fileID: 956678582}
   - {fileID: 1736116626}
-  - {fileID: 252411}
   - {fileID: 456879427}
   - {fileID: 1970699250}
+  - {fileID: 198396608}
