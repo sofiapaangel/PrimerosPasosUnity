@@ -5,27 +5,25 @@ public class PlayerMovement : MonoBehaviour
 
     //variables
 
-public float altura=1.62f;
-public int edad=17;
-public string nombre="Sofia";
-public bool puedevotar=true;
-
-public GameObject gameObject;
-public Rigidbody2D rigibody2D;
-public Collider2D collider2D;
-public SpriteRenderer spriteRenderer;
-public Transform transform;
+[SerializeField] private float _force = 10f;
+[SerializeField] private float _speed = 5f;
+[SerializeField] private Rigidbody2D _rigibody2D;
 
 private void Start()
 {
-    Debug.Log("Hola: " + nombre +  " tu edad es: " + edad  + " tu altura es: " + altura);
-    rigibody2D.simulated = false;
-    spriteRenderer.color = Color.red;
-    transform.position = new Vector3(10, 0, 0);
+   _rigibody2D = GetComponent<Rigidbody2D>();
 }
 private void Update()
 {
-
+    if (Input.GetKey(KeyCode.Space))
+        {
+            _rigibody2D.AddForce(Vector2.up *_force);
+    
+        }
+        _rigibody2D.velocity = Vector2.right * _speed * Time.deltaTime;
+        {
+            
+        }
 }
 
-}
+} 
