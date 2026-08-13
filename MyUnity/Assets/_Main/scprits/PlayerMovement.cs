@@ -5,8 +5,8 @@ public class PlayerMovement : MonoBehaviour
 
         //variables
 
-    [SerializeField] private float _force = 10f;
-    [SerializeField] private float _speed = 5f;
+    [SerializeField] private float _jumpforce = 10f;
+    [SerializeField] private float _movenentspeed = 5f;
     [SerializeField] private Rigidbody2D _rigibody2D;
 
     [SerializeField] private GroundCheck _groundCheck;
@@ -21,13 +21,13 @@ public class PlayerMovement : MonoBehaviour
         {
             if (Input.GetKey(KeyCode.Space))
             {
-                _rigibody2D.AddForce(Vector2.up * _force);
+                _rigibody2D.AddForce(Vector2.up * _jumpforce, ForceMode2D.Force);
                 Debug.Log("Oprimi la tecla");
 
             } 
         }
 
-        _rigibody2D.linearVelocity = Vector2.right * _speed;
+        _rigibody2D.linearVelocity = Vector2.right * _movenentspeed;
 
     }
 }
