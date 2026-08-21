@@ -6,7 +6,7 @@ public class PlayerMovement : MonoBehaviour
         //variables
 
     [SerializeField] private float _jumpforce = 10f;
-    [SerializeField] private float _movenentspeed = 5f;
+    [SerializeField] private float _movenentspeed = 5f; // esto mueve el personaje 
     [SerializeField] private Rigidbody2D _rigibody2D;
 
     [SerializeField] private GroundCheck _groundCheck;
