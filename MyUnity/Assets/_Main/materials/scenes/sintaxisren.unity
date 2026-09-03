@@ -496,9 +496,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 57282131}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 40ee9d8798d9bf94d9cc378c9c98b14d, type: 3}
+  m_Script: {fileID: 11500000, guid: f5dde8d2fd8e6d240bdd688706dc09a7, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ObstaculoMortal
+  m_EditorClassIdentifier: Assembly-CSharp::TrampaMortal
+  _playerStats: {fileID: 1718106537}
 --- !u!1 &72958529
 GameObject:
   m_ObjectHideFlags: 0
@@ -1232,7 +1233,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f5dde8d2fd8e6d240bdd688706dc09a7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TrampaMortal
-  _playerStats1: {fileID: 0}
+  _playerStats: {fileID: 1718106537}
 --- !u!212 &146293551
 SpriteRenderer:
   serializedVersion: 2
@@ -1301,9 +1302,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 146293547}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 40ee9d8798d9bf94d9cc378c9c98b14d, type: 3}
+  m_Script: {fileID: 11500000, guid: f5dde8d2fd8e6d240bdd688706dc09a7, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ObstaculoMortal
+  m_EditorClassIdentifier: Assembly-CSharp::TrampaMortal
+  _playerStats: {fileID: 0}
 --- !u!1 &165503695
 GameObject:
   m_ObjectHideFlags: 0
@@ -1543,9 +1545,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 175337058}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 40ee9d8798d9bf94d9cc378c9c98b14d, type: 3}
+  m_Script: {fileID: 11500000, guid: f5dde8d2fd8e6d240bdd688706dc09a7, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ObstaculoMortal
+  m_EditorClassIdentifier: Assembly-CSharp::TrampaMortal
+  _playerStats: {fileID: 1718106537}
 --- !u!1 &187240484
 GameObject:
   m_ObjectHideFlags: 0
@@ -1907,9 +1910,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 209043104}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 40ee9d8798d9bf94d9cc378c9c98b14d, type: 3}
+  m_Script: {fileID: 11500000, guid: f5dde8d2fd8e6d240bdd688706dc09a7, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ObstaculoMortal
+  m_EditorClassIdentifier: Assembly-CSharp::TrampaMortal
+  _playerStats: {fileID: 1718106537}
 --- !u!1 &212588377
 GameObject:
   m_ObjectHideFlags: 0
@@ -3295,7 +3299,7 @@ GameObject:
   - component: {fileID: 322146878}
   - component: {fileID: 322146877}
   - component: {fileID: 322146876}
-  - component: {fileID: 322146879}
+  - component: {fileID: 322146880}
   m_Layer: 0
   m_Name: Cactus mortal
   m_TagString: Untagged
@@ -3423,7 +3427,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 788759123}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &322146879
+--- !u!114 &322146880
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3432,9 +3436,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 322146875}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 40ee9d8798d9bf94d9cc378c9c98b14d, type: 3}
+  m_Script: {fileID: 11500000, guid: f5dde8d2fd8e6d240bdd688706dc09a7, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ObstaculoMortal
+  m_EditorClassIdentifier: Assembly-CSharp::TrampaMortal
+  _playerStats: {fileID: 1718106537}
 --- !u!1 &329821368
 GameObject:
   m_ObjectHideFlags: 0
@@ -3583,9 +3588,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 329821368}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 40ee9d8798d9bf94d9cc378c9c98b14d, type: 3}
+  m_Script: {fileID: 11500000, guid: f5dde8d2fd8e6d240bdd688706dc09a7, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ObstaculoMortal
+  m_EditorClassIdentifier: Assembly-CSharp::TrampaMortal
+  _playerStats: {fileID: 1718106537}
 --- !u!1 &346232574
 GameObject:
   m_ObjectHideFlags: 0
@@ -3780,6 +3786,7 @@ GameObject:
   - component: {fileID: 348294128}
   - component: {fileID: 348294127}
   - component: {fileID: 348294126}
+  - component: {fileID: 348294129}
   m_Layer: 0
   m_Name: Cactus mortal (5)
   m_TagString: Untagged
@@ -3860,7 +3867,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f5dde8d2fd8e6d240bdd688706dc09a7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TrampaMortal
-  _playerStats1: {fileID: 0}
+  _playerStats: {fileID: 1718106537}
 --- !u!212 &348294128
 SpriteRenderer:
   serializedVersion: 2
@@ -3920,6 +3927,19 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!114 &348294129
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 348294124}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f5dde8d2fd8e6d240bdd688706dc09a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TrampaMortal
+  _playerStats: {fileID: 0}
 --- !u!1 &369329074
 GameObject:
   m_ObjectHideFlags: 0
@@ -4281,9 +4301,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 377514079}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 40ee9d8798d9bf94d9cc378c9c98b14d, type: 3}
+  m_Script: {fileID: 11500000, guid: f5dde8d2fd8e6d240bdd688706dc09a7, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ObstaculoMortal
+  m_EditorClassIdentifier: Assembly-CSharp::TrampaMortal
+  _playerStats: {fileID: 1718106537}
 --- !u!1 &381366184
 GameObject:
   m_ObjectHideFlags: 0
@@ -4432,9 +4453,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 381366184}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 40ee9d8798d9bf94d9cc378c9c98b14d, type: 3}
+  m_Script: {fileID: 11500000, guid: f5dde8d2fd8e6d240bdd688706dc09a7, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ObstaculoMortal
+  m_EditorClassIdentifier: Assembly-CSharp::TrampaMortal
+  _playerStats: {fileID: 1718106537}
 --- !u!1 &386647128
 GameObject:
   m_ObjectHideFlags: 0
@@ -5086,7 +5108,6 @@ GameObject:
   - component: {fileID: 436812648}
   - component: {fileID: 436812647}
   - component: {fileID: 436812645}
-  - component: {fileID: 436812650}
   - component: {fileID: 436812649}
   m_Layer: 0
   m_Name: Cactus mortal (5)
@@ -5224,21 +5245,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 436812644}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 40ee9d8798d9bf94d9cc378c9c98b14d, type: 3}
+  m_Script: {fileID: 11500000, guid: f5dde8d2fd8e6d240bdd688706dc09a7, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ObstaculoMortal
---- !u!114 &436812650
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 436812644}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 40ee9d8798d9bf94d9cc378c9c98b14d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ObstaculoMortal
+  m_EditorClassIdentifier: Assembly-CSharp::TrampaMortal
+  _playerStats: {fileID: 1718106537}
 --- !u!1 &449073271
 GameObject:
   m_ObjectHideFlags: 0
@@ -6025,9 +6035,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 519006649}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 40ee9d8798d9bf94d9cc378c9c98b14d, type: 3}
+  m_Script: {fileID: 11500000, guid: f5dde8d2fd8e6d240bdd688706dc09a7, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ObstaculoMortal
+  m_EditorClassIdentifier: Assembly-CSharp::TrampaMortal
+  _playerStats: {fileID: 1718106537}
 --- !u!1 &529577923
 GameObject:
   m_ObjectHideFlags: 0
@@ -6166,6 +6177,149 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!1 &543245934
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 543245937}
+  - component: {fileID: 543245936}
+  - component: {fileID: 543245935}
+  - component: {fileID: 543245938}
+  m_Layer: 0
+  m_Name: nube de vida 2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &543245935
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 543245934}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 891251c5c2be441489798c38d59a292f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Heal
+  _playerStats: {fileID: 1718106537}
+--- !u!212 &543245936
+SpriteRenderer:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 543245934}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_MaskInteraction: 0
+  m_Sprite: {fileID: 21300000, guid: bd79f3830e84cf543972a859dc0807e8, type: 3}
+  m_Color: {r: 1, g: 0.6462264, b: 0.9037534, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 1.25, y: 0.6875}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_SpriteSortPoint: 0
+--- !u!4 &543245937
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 543245934}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -24.07, y: 3.96, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!70 &543245938
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 543245934}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0.34375}
+  m_Size: {x: 1.25, y: 0.6875}
+  m_Direction: 0
 --- !u!1 &550488047
 GameObject:
   m_ObjectHideFlags: 0
@@ -6269,6 +6423,7 @@ GameObject:
   - component: {fileID: 551031515}
   - component: {fileID: 551031514}
   - component: {fileID: 551031513}
+  - component: {fileID: 551031516}
   m_Layer: 0
   m_Name: Cactus mortal (21)
   m_TagString: Untagged
@@ -6349,7 +6504,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f5dde8d2fd8e6d240bdd688706dc09a7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TrampaMortal
-  _playerStats1: {fileID: 0}
+  _playerStats: {fileID: 1718106537}
 --- !u!212 &551031515
 SpriteRenderer:
   serializedVersion: 2
@@ -6409,6 +6564,19 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!114 &551031516
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 551031511}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f5dde8d2fd8e6d240bdd688706dc09a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TrampaMortal
+  _playerStats: {fileID: 0}
 --- !u!1 &585610662
 GameObject:
   m_ObjectHideFlags: 0
@@ -6916,7 +7084,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f5dde8d2fd8e6d240bdd688706dc09a7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TrampaMortal
-  _playerStats1: {fileID: 0}
+  _playerStats: {fileID: 1718106537}
 --- !u!212 &618741516
 SpriteRenderer:
   serializedVersion: 2
@@ -6985,9 +7153,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 618741512}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 40ee9d8798d9bf94d9cc378c9c98b14d, type: 3}
+  m_Script: {fileID: 11500000, guid: f5dde8d2fd8e6d240bdd688706dc09a7, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ObstaculoMortal
+  m_EditorClassIdentifier: Assembly-CSharp::TrampaMortal
+  _playerStats: {fileID: 0}
 --- !u!1 &621556811
 GameObject:
   m_ObjectHideFlags: 0
@@ -7136,9 +7305,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 621556811}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 40ee9d8798d9bf94d9cc378c9c98b14d, type: 3}
+  m_Script: {fileID: 11500000, guid: f5dde8d2fd8e6d240bdd688706dc09a7, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ObstaculoMortal
+  m_EditorClassIdentifier: Assembly-CSharp::TrampaMortal
+  _playerStats: {fileID: 1718106537}
 --- !u!1 &626152551
 GameObject:
   m_ObjectHideFlags: 0
@@ -8018,9 +8188,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 665973104}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 40ee9d8798d9bf94d9cc378c9c98b14d, type: 3}
+  m_Script: {fileID: 11500000, guid: f5dde8d2fd8e6d240bdd688706dc09a7, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ObstaculoMortal
+  m_EditorClassIdentifier: Assembly-CSharp::TrampaMortal
+  _playerStats: {fileID: 1718106537}
 --- !u!1 &677098885
 GameObject:
   m_ObjectHideFlags: 0
@@ -8442,9 +8613,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 703959307}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 40ee9d8798d9bf94d9cc378c9c98b14d, type: 3}
+  m_Script: {fileID: 11500000, guid: f5dde8d2fd8e6d240bdd688706dc09a7, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ObstaculoMortal
+  m_EditorClassIdentifier: Assembly-CSharp::TrampaMortal
+  _playerStats: {fileID: 1718106537}
 --- !u!1 &722968950
 GameObject:
   m_ObjectHideFlags: 0
@@ -9685,7 +9857,6 @@ Transform:
   - {fileID: 377514080}
   - {fileID: 175337059}
   - {fileID: 1899916000}
-  - {fileID: 991693910}
   - {fileID: 1558762540}
   - {fileID: 381366185}
   - {fileID: 1765166680}
@@ -9698,10 +9869,10 @@ Transform:
   - {fileID: 1837613368}
   - {fileID: 1138568259}
   - {fileID: 1157510289}
+  - {fileID: 991693910}
   - {fileID: 1156503546}
   - {fileID: 703959308}
   - {fileID: 1938921181}
-  - {fileID: 810225799}
   - {fileID: 146293548}
   - {fileID: 807931347}
   - {fileID: 551031512}
@@ -9812,7 +9983,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f5dde8d2fd8e6d240bdd688706dc09a7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TrampaMortal
-  _playerStats1: {fileID: 0}
+  _playerStats: {fileID: 1718106537}
 --- !u!212 &807931350
 SpriteRenderer:
   serializedVersion: 2
@@ -9881,9 +10052,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 807931346}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 40ee9d8798d9bf94d9cc378c9c98b14d, type: 3}
+  m_Script: {fileID: 11500000, guid: f5dde8d2fd8e6d240bdd688706dc09a7, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ObstaculoMortal
+  m_EditorClassIdentifier: Assembly-CSharp::TrampaMortal
+  _playerStats: {fileID: 0}
 --- !u!1 &810225798
 GameObject:
   m_ObjectHideFlags: 0
@@ -9912,11 +10084,11 @@ Transform:
   m_GameObject: {fileID: 810225798}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 23.61, y: -3.719, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -130.60965, y: 1.46994, z: 0}
+  m_LocalScale: {x: 1.1417925, y: 1.3473328, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 788759123}
+  m_Father: {fileID: 1156503546}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &810225801
 BoxCollider2D:
@@ -10032,9 +10204,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 810225798}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 40ee9d8798d9bf94d9cc378c9c98b14d, type: 3}
+  m_Script: {fileID: 11500000, guid: f5dde8d2fd8e6d240bdd688706dc09a7, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ObstaculoMortal
+  m_EditorClassIdentifier: Assembly-CSharp::TrampaMortal
+  _playerStats: {fileID: 1718106537}
 --- !u!1 &816559386
 GameObject:
   m_ObjectHideFlags: 0
@@ -10219,7 +10392,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f5dde8d2fd8e6d240bdd688706dc09a7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TrampaMortal
-  _playerStats1: {fileID: 0}
+  _playerStats: {fileID: 1718106537}
 --- !u!212 &816587891
 SpriteRenderer:
   serializedVersion: 2
@@ -10288,9 +10461,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 816587887}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 40ee9d8798d9bf94d9cc378c9c98b14d, type: 3}
+  m_Script: {fileID: 11500000, guid: f5dde8d2fd8e6d240bdd688706dc09a7, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ObstaculoMortal
+  m_EditorClassIdentifier: Assembly-CSharp::TrampaMortal
+  _playerStats: {fileID: 0}
 --- !u!1 &821948596
 GameObject:
   m_ObjectHideFlags: 0
@@ -10384,7 +10558,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f5dde8d2fd8e6d240bdd688706dc09a7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TrampaMortal
-  _playerStats1: {fileID: 0}
+  _playerStats: {fileID: 1718106537}
 --- !u!212 &821948600
 SpriteRenderer:
   serializedVersion: 2
@@ -10453,9 +10627,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 821948596}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 40ee9d8798d9bf94d9cc378c9c98b14d, type: 3}
+  m_Script: {fileID: 11500000, guid: f5dde8d2fd8e6d240bdd688706dc09a7, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ObstaculoMortal
+  m_EditorClassIdentifier: Assembly-CSharp::TrampaMortal
+  _playerStats: {fileID: 0}
 --- !u!1 &827215465
 GameObject:
   m_ObjectHideFlags: 0
@@ -11247,9 +11422,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 972701080}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 40ee9d8798d9bf94d9cc378c9c98b14d, type: 3}
+  m_Script: {fileID: 11500000, guid: f5dde8d2fd8e6d240bdd688706dc09a7, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ObstaculoMortal
+  m_EditorClassIdentifier: Assembly-CSharp::TrampaMortal
+  _playerStats: {fileID: 1718106537}
 --- !u!1 &972941728
 GameObject:
   m_ObjectHideFlags: 0
@@ -11580,9 +11756,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 991693909}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 40ee9d8798d9bf94d9cc378c9c98b14d, type: 3}
+  m_Script: {fileID: 11500000, guid: f5dde8d2fd8e6d240bdd688706dc09a7, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ObstaculoMortal
+  m_EditorClassIdentifier: Assembly-CSharp::TrampaMortal
+  _playerStats: {fileID: 1718106537}
 --- !u!1 &1021147467
 GameObject:
   m_ObjectHideFlags: 0
@@ -12071,7 +12248,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f5dde8d2fd8e6d240bdd688706dc09a7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TrampaMortal
-  _playerStats1: {fileID: 0}
+  _playerStats: {fileID: 1718106537}
 --- !u!212 &1030204447
 SpriteRenderer:
   serializedVersion: 2
@@ -12140,9 +12317,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1030204443}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 40ee9d8798d9bf94d9cc378c9c98b14d, type: 3}
+  m_Script: {fileID: 11500000, guid: f5dde8d2fd8e6d240bdd688706dc09a7, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ObstaculoMortal
+  m_EditorClassIdentifier: Assembly-CSharp::TrampaMortal
+  _playerStats: {fileID: 0}
 --- !u!1 &1056735742
 GameObject:
   m_ObjectHideFlags: 0
@@ -12172,7 +12350,7 @@ Transform:
   m_GameObject: {fileID: 1056735742}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 3.620001, y: -5.3, z: 0}
+  m_LocalPosition: {x: 3.6900003, y: -5.3, z: 0}
   m_LocalScale: {x: 0.8766, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -12236,7 +12414,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f5dde8d2fd8e6d240bdd688706dc09a7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TrampaMortal
-  _playerStats1: {fileID: 0}
+  _playerStats: {fileID: 1718106537}
 --- !u!212 &1056735746
 SpriteRenderer:
   serializedVersion: 2
@@ -12305,9 +12483,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1056735742}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 40ee9d8798d9bf94d9cc378c9c98b14d, type: 3}
+  m_Script: {fileID: 11500000, guid: f5dde8d2fd8e6d240bdd688706dc09a7, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ObstaculoMortal
+  m_EditorClassIdentifier: Assembly-CSharp::TrampaMortal
+  _playerStats: {fileID: 0}
 --- !u!1 &1059842649
 GameObject:
   m_ObjectHideFlags: 0
@@ -12548,7 +12727,6 @@ GameObject:
   - component: {fileID: 1078670323}
   - component: {fileID: 1078670326}
   - component: {fileID: 1078670324}
-  - component: {fileID: 1078670328}
   - component: {fileID: 1078670327}
   m_Layer: 0
   m_Name: Cactus mortal (16)
@@ -12686,21 +12864,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1078670322}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 40ee9d8798d9bf94d9cc378c9c98b14d, type: 3}
+  m_Script: {fileID: 11500000, guid: f5dde8d2fd8e6d240bdd688706dc09a7, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ObstaculoMortal
---- !u!114 &1078670328
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1078670322}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 40ee9d8798d9bf94d9cc378c9c98b14d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ObstaculoMortal
+  m_EditorClassIdentifier: Assembly-CSharp::TrampaMortal
+  _playerStats: {fileID: 1718106537}
 --- !u!1 &1095431677
 GameObject:
   m_ObjectHideFlags: 0
@@ -12981,6 +13148,149 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!1 &1102123056
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1102123057}
+  - component: {fileID: 1102123059}
+  - component: {fileID: 1102123058}
+  - component: {fileID: 1102123060}
+  m_Layer: 0
+  m_Name: nube de vida 4
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1102123057
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1102123056}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 4.68, y: 0.82, z: 0}
+  m_LocalScale: {x: 0.6293063, y: 0.54329926, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1197361150}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1102123058
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1102123056}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 891251c5c2be441489798c38d59a292f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Heal
+  _playerStats: {fileID: 1718106537}
+--- !u!212 &1102123059
+SpriteRenderer:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1102123056}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_MaskInteraction: 0
+  m_Sprite: {fileID: 21300000, guid: bd79f3830e84cf543972a859dc0807e8, type: 3}
+  m_Color: {r: 1, g: 0.6462264, b: 0.9037534, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 1.25, y: 0.6875}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_SpriteSortPoint: 0
+--- !u!70 &1102123060
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1102123056}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: -0.0000019073486, y: 0.34375}
+  m_Size: {x: 1.2500001, y: 0.6875}
+  m_Direction: 0
 --- !u!1 &1105961099
 GameObject:
   m_ObjectHideFlags: 0
@@ -13129,9 +13439,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1105961099}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 40ee9d8798d9bf94d9cc378c9c98b14d, type: 3}
+  m_Script: {fileID: 11500000, guid: f5dde8d2fd8e6d240bdd688706dc09a7, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ObstaculoMortal
+  m_EditorClassIdentifier: Assembly-CSharp::TrampaMortal
+  _playerStats: {fileID: 1718106537}
 --- !u!1 &1126184719
 GameObject:
   m_ObjectHideFlags: 0
@@ -13647,9 +13958,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1138363854}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 40ee9d8798d9bf94d9cc378c9c98b14d, type: 3}
+  m_Script: {fileID: 11500000, guid: f5dde8d2fd8e6d240bdd688706dc09a7, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ObstaculoMortal
+  m_EditorClassIdentifier: Assembly-CSharp::TrampaMortal
+  _playerStats: {fileID: 1718106537}
 --- !u!1 &1138568258
 GameObject:
   m_ObjectHideFlags: 0
@@ -13798,9 +14110,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1138568258}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 40ee9d8798d9bf94d9cc378c9c98b14d, type: 3}
+  m_Script: {fileID: 11500000, guid: f5dde8d2fd8e6d240bdd688706dc09a7, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ObstaculoMortal
+  m_EditorClassIdentifier: Assembly-CSharp::TrampaMortal
+  _playerStats: {fileID: 1718106537}
 --- !u!1 &1139499121
 GameObject:
   m_ObjectHideFlags: 0
@@ -13923,7 +14236,8 @@ Transform:
   m_LocalPosition: {x: 138, y: -4.81, z: 0}
   m_LocalScale: {x: 0.8758158, y: 0.7422071, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 810225799}
   m_Father: {fileID: 788759123}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &1156503548
@@ -14040,9 +14354,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1156503545}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 40ee9d8798d9bf94d9cc378c9c98b14d, type: 3}
+  m_Script: {fileID: 11500000, guid: f5dde8d2fd8e6d240bdd688706dc09a7, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ObstaculoMortal
+  m_EditorClassIdentifier: Assembly-CSharp::TrampaMortal
+  _playerStats: {fileID: 1718106537}
 --- !u!1 &1157510288
 GameObject:
   m_ObjectHideFlags: 0
@@ -14191,9 +14506,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1157510288}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 40ee9d8798d9bf94d9cc378c9c98b14d, type: 3}
+  m_Script: {fileID: 11500000, guid: f5dde8d2fd8e6d240bdd688706dc09a7, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ObstaculoMortal
+  m_EditorClassIdentifier: Assembly-CSharp::TrampaMortal
+  _playerStats: {fileID: 1718106537}
 --- !u!1 &1165192091
 GameObject:
   m_ObjectHideFlags: 0
@@ -14729,6 +15045,7 @@ Transform:
   - {fileID: 296444375}
   - {fileID: 314995079}
   - {fileID: 972941729}
+  - {fileID: 1718106532}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1192916944
@@ -14854,6 +15171,8 @@ Transform:
   m_Children:
   - {fileID: 1666934474}
   - {fileID: 2041394004}
+  - {fileID: 1915468922}
+  - {fileID: 1102123057}
   - {fileID: 2083033101}
   - {fileID: 1746460201}
   - {fileID: 502554802}
@@ -17386,9 +17705,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1493816136}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 40ee9d8798d9bf94d9cc378c9c98b14d, type: 3}
+  m_Script: {fileID: 11500000, guid: f5dde8d2fd8e6d240bdd688706dc09a7, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ObstaculoMortal
+  m_EditorClassIdentifier: Assembly-CSharp::TrampaMortal
+  _playerStats: {fileID: 1718106537}
 --- !u!1 &1498505499
 GameObject:
   m_ObjectHideFlags: 0
@@ -17992,9 +18312,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1558762539}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 40ee9d8798d9bf94d9cc378c9c98b14d, type: 3}
+  m_Script: {fileID: 11500000, guid: f5dde8d2fd8e6d240bdd688706dc09a7, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ObstaculoMortal
+  m_EditorClassIdentifier: Assembly-CSharp::TrampaMortal
+  _playerStats: {fileID: 1718106537}
 --- !u!1 &1565647789
 GameObject:
   m_ObjectHideFlags: 0
@@ -18633,7 +18954,7 @@ Transform:
   m_GameObject: {fileID: 1663196880}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 18.36, y: -5.32, z: 0}
+  m_LocalPosition: {x: 18.31, y: -5.32, z: 0}
   m_LocalScale: {x: 0.7747, y: 0.946, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -18697,7 +19018,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f5dde8d2fd8e6d240bdd688706dc09a7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TrampaMortal
-  _playerStats1: {fileID: 0}
+  _playerStats: {fileID: 1718106537}
 --- !u!212 &1663196884
 SpriteRenderer:
   serializedVersion: 2
@@ -18766,9 +19087,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1663196880}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 40ee9d8798d9bf94d9cc378c9c98b14d, type: 3}
+  m_Script: {fileID: 11500000, guid: f5dde8d2fd8e6d240bdd688706dc09a7, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ObstaculoMortal
+  m_EditorClassIdentifier: Assembly-CSharp::TrampaMortal
+  _playerStats: {fileID: 0}
 --- !u!1 &1666934473
 GameObject:
   m_ObjectHideFlags: 0
@@ -18979,6 +19301,7 @@ GameObject:
   - component: {fileID: 1718106535}
   - component: {fileID: 1718106534}
   - component: {fileID: 1718106536}
+  - component: {fileID: 1718106537}
   m_Layer: 0
   m_Name: Dino Player
   m_TagString: Player
@@ -19081,7 +19404,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1095431678}
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1192528994}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!50 &1718106534
 Rigidbody2D:
@@ -19172,6 +19495,19 @@ MonoBehaviour:
   _velocidadmovimiento: 7
   _cuerporigido2D: {fileID: 1718106534}
   _detectorSuelo: {fileID: 1095431681}
+--- !u!114 &1718106537
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1718106529}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6205ff9f629e4dd45981edd645a323bc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerStats
+  _puntosVida: 100
 --- !u!1 &1740027963
 GameObject:
   m_ObjectHideFlags: 0
@@ -19320,9 +19656,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1740027963}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 40ee9d8798d9bf94d9cc378c9c98b14d, type: 3}
+  m_Script: {fileID: 11500000, guid: f5dde8d2fd8e6d240bdd688706dc09a7, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ObstaculoMortal
+  m_EditorClassIdentifier: Assembly-CSharp::TrampaMortal
+  _playerStats: {fileID: 1718106537}
 --- !u!1 &1745350686
 GameObject:
   m_ObjectHideFlags: 0
@@ -19732,9 +20069,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1764165978}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 40ee9d8798d9bf94d9cc378c9c98b14d, type: 3}
+  m_Script: {fileID: 11500000, guid: f5dde8d2fd8e6d240bdd688706dc09a7, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ObstaculoMortal
+  m_EditorClassIdentifier: Assembly-CSharp::TrampaMortal
+  _playerStats: {fileID: 1718106537}
 --- !u!1 &1765166679
 GameObject:
   m_ObjectHideFlags: 0
@@ -19828,7 +20166,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f5dde8d2fd8e6d240bdd688706dc09a7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TrampaMortal
-  _playerStats1: {fileID: 0}
+  _playerStats: {fileID: 1718106537}
 --- !u!212 &1765166683
 SpriteRenderer:
   serializedVersion: 2
@@ -19897,9 +20235,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1765166679}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 40ee9d8798d9bf94d9cc378c9c98b14d, type: 3}
+  m_Script: {fileID: 11500000, guid: f5dde8d2fd8e6d240bdd688706dc09a7, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ObstaculoMortal
+  m_EditorClassIdentifier: Assembly-CSharp::TrampaMortal
+  _playerStats: {fileID: 0}
 --- !u!1 &1772500588
 GameObject:
   m_ObjectHideFlags: 0
@@ -20038,6 +20377,149 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!1 &1777203520
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1777203522}
+  - component: {fileID: 1777203521}
+  - component: {fileID: 1777203524}
+  - component: {fileID: 1777203523}
+  m_Layer: 0
+  m_Name: nube de vida
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!212 &1777203521
+SpriteRenderer:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1777203520}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_MaskInteraction: 0
+  m_Sprite: {fileID: 21300000, guid: bd79f3830e84cf543972a859dc0807e8, type: 3}
+  m_Color: {r: 1, g: 0.6462264, b: 0.9037534, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 1.25, y: 0.6875}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_SpriteSortPoint: 0
+--- !u!4 &1777203522
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1777203520}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -33.691647, y: 3.64, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1777203523
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1777203520}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 891251c5c2be441489798c38d59a292f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Heal
+  _playerStats: {fileID: 1718106537}
+--- !u!70 &1777203524
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1777203520}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0.34375}
+  m_Size: {x: 1.25, y: 0.6875}
+  m_Direction: 0
 --- !u!1 &1781688107
 GameObject:
   m_ObjectHideFlags: 0
@@ -20553,9 +21035,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1837613367}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 40ee9d8798d9bf94d9cc378c9c98b14d, type: 3}
+  m_Script: {fileID: 11500000, guid: f5dde8d2fd8e6d240bdd688706dc09a7, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ObstaculoMortal
+  m_EditorClassIdentifier: Assembly-CSharp::TrampaMortal
+  _playerStats: {fileID: 1718106537}
 --- !u!1 &1856587476
 GameObject:
   m_ObjectHideFlags: 0
@@ -20795,9 +21278,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1865465022}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 40ee9d8798d9bf94d9cc378c9c98b14d, type: 3}
+  m_Script: {fileID: 11500000, guid: f5dde8d2fd8e6d240bdd688706dc09a7, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ObstaculoMortal
+  m_EditorClassIdentifier: Assembly-CSharp::TrampaMortal
+  _playerStats: {fileID: 1718106537}
 --- !u!1 &1899915999
 GameObject:
   m_ObjectHideFlags: 0
@@ -20946,9 +21430,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1899915999}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 40ee9d8798d9bf94d9cc378c9c98b14d, type: 3}
+  m_Script: {fileID: 11500000, guid: f5dde8d2fd8e6d240bdd688706dc09a7, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ObstaculoMortal
+  m_EditorClassIdentifier: Assembly-CSharp::TrampaMortal
+  _playerStats: {fileID: 1718106537}
 --- !u!1 &1907567642
 GameObject:
   m_ObjectHideFlags: 0
@@ -21040,6 +21525,149 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!1 &1915468921
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1915468922}
+  - component: {fileID: 1915468924}
+  - component: {fileID: 1915468923}
+  - component: {fileID: 1915468925}
+  m_Layer: 0
+  m_Name: nube de vida 3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1915468922
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1915468921}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 1.76, y: 1.4, z: 0}
+  m_LocalScale: {x: 0.6293063, y: 0.54329926, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1197361150}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1915468923
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1915468921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 891251c5c2be441489798c38d59a292f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Heal
+  _playerStats: {fileID: 1718106537}
+--- !u!212 &1915468924
+SpriteRenderer:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1915468921}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_MaskInteraction: 0
+  m_Sprite: {fileID: 21300000, guid: bd79f3830e84cf543972a859dc0807e8, type: 3}
+  m_Color: {r: 1, g: 0.6462264, b: 0.9037534, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 1.25, y: 0.6875}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_SpriteSortPoint: 0
+--- !u!70 &1915468925
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1915468921}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: -0.0000019073486, y: 0.34375}
+  m_Size: {x: 1.2500001, y: 0.6875}
+  m_Direction: 0
 --- !u!1 &1923465300
 GameObject:
   m_ObjectHideFlags: 0
@@ -21464,9 +22092,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1938921180}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 40ee9d8798d9bf94d9cc378c9c98b14d, type: 3}
+  m_Script: {fileID: 11500000, guid: f5dde8d2fd8e6d240bdd688706dc09a7, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ObstaculoMortal
+  m_EditorClassIdentifier: Assembly-CSharp::TrampaMortal
+  _playerStats: {fileID: 1718106537}
 --- !u!1 &1941284314
 GameObject:
   m_ObjectHideFlags: 0
@@ -21560,7 +22189,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f5dde8d2fd8e6d240bdd688706dc09a7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TrampaMortal
-  _playerStats1: {fileID: 0}
+  _playerStats: {fileID: 1718106537}
 --- !u!212 &1941284318
 SpriteRenderer:
   serializedVersion: 2
@@ -21629,9 +22258,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1941284314}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 40ee9d8798d9bf94d9cc378c9c98b14d, type: 3}
+  m_Script: {fileID: 11500000, guid: f5dde8d2fd8e6d240bdd688706dc09a7, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ObstaculoMortal
+  m_EditorClassIdentifier: Assembly-CSharp::TrampaMortal
+  _playerStats: {fileID: 0}
 --- !u!1 &1984004959
 GameObject:
   m_ObjectHideFlags: 0
@@ -22045,7 +22675,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f5dde8d2fd8e6d240bdd688706dc09a7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TrampaMortal
-  _playerStats1: {fileID: 0}
+  _playerStats: {fileID: 1718106537}
 --- !u!212 &2014760294
 SpriteRenderer:
   serializedVersion: 2
@@ -22114,9 +22744,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 2014760290}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 40ee9d8798d9bf94d9cc378c9c98b14d, type: 3}
+  m_Script: {fileID: 11500000, guid: f5dde8d2fd8e6d240bdd688706dc09a7, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ObstaculoMortal
+  m_EditorClassIdentifier: Assembly-CSharp::TrampaMortal
+  _playerStats: {fileID: 0}
 --- !u!1 &2017679008
 GameObject:
   m_ObjectHideFlags: 0
@@ -22265,9 +22896,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 2017679008}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 40ee9d8798d9bf94d9cc378c9c98b14d, type: 3}
+  m_Script: {fileID: 11500000, guid: f5dde8d2fd8e6d240bdd688706dc09a7, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ObstaculoMortal
+  m_EditorClassIdentifier: Assembly-CSharp::TrampaMortal
+  _playerStats: {fileID: 1718106537}
 --- !u!1 &2041394003
 GameObject:
   m_ObjectHideFlags: 0
@@ -22371,7 +23003,6 @@ GameObject:
   - component: {fileID: 2048281759}
   - component: {fileID: 2048281757}
   - component: {fileID: 2048281760}
-  - component: {fileID: 2048281761}
   m_Layer: 0
   m_Name: Cactus mortal (7)
   m_TagString: Untagged
@@ -22508,21 +23139,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 2048281755}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 40ee9d8798d9bf94d9cc378c9c98b14d, type: 3}
+  m_Script: {fileID: 11500000, guid: f5dde8d2fd8e6d240bdd688706dc09a7, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ObstaculoMortal
---- !u!114 &2048281761
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2048281755}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 40ee9d8798d9bf94d9cc378c9c98b14d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ObstaculoMortal
+  m_EditorClassIdentifier: Assembly-CSharp::TrampaMortal
+  _playerStats: {fileID: 1718106537}
 --- !u!1 &2058847350
 GameObject:
   m_ObjectHideFlags: 0
@@ -23421,7 +24041,7 @@ Transform:
   m_GameObject: {fileID: 2095410134}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2.400001, y: -5.37, z: 0}
+  m_LocalPosition: {x: 2.47, y: -5.37, z: 0}
   m_LocalScale: {x: 0.7747, y: 0.946, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -23485,7 +24105,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f5dde8d2fd8e6d240bdd688706dc09a7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TrampaMortal
-  _playerStats1: {fileID: 0}
+  _playerStats: {fileID: 1718106537}
 --- !u!212 &2095410138
 SpriteRenderer:
   serializedVersion: 2
@@ -23554,9 +24174,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 2095410134}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 40ee9d8798d9bf94d9cc378c9c98b14d, type: 3}
+  m_Script: {fileID: 11500000, guid: f5dde8d2fd8e6d240bdd688706dc09a7, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ObstaculoMortal
+  m_EditorClassIdentifier: Assembly-CSharp::TrampaMortal
+  _playerStats: {fileID: 0}
 --- !u!1 &2100701516
 GameObject:
   m_ObjectHideFlags: 0
@@ -24251,9 +24872,10 @@ SceneRoots:
   - {fileID: 1565647793}
   - {fileID: 788759123}
   - {fileID: 1192528994}
-  - {fileID: 1718106532}
   - {fileID: 1215004811}
   - {fileID: 1781688109}
   - {fileID: 1670786468}
   - {fileID: 1754167529}
   - {fileID: 516735633}
+  - {fileID: 1777203522}
+  - {fileID: 543245937}

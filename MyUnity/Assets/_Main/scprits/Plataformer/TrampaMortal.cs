@@ -2,17 +2,13 @@ using UnityEngine;
 
 public class TrampaMortal : MonoBehaviour
 {
-    [SerializeField] private PlayerStats _playerStats1;
+    [SerializeField] private PlayerStats _playerStats;
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.CompareTag("Player"))
+        if (collision.gameObject.tag == "Player")
         {
-            _playerStats1.RestarVida();
+            _playerStats.RestarVida(10);
         }
     }
-
-
-
-
 
 }
