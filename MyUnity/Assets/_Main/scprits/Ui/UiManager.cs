@@ -1,19 +1,20 @@
 using UnityEngine;
 using UnityEngine.UI;
 
-public class UiManager : MonoBehaviour
+public class UIManager : MonoBehaviour
 {
-    [SerializeField] private Image barra;
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        barra.color = Color.cyan;
-        barra.fillAmount = 0.5f;
-    }
+    [SerializeField] private Image _barra;
 
-    // Update is called once per frame
-    void Update()
+    public void SumarFillAmount(float amount)
     {
-        
+        _barra.fillAmount += amount;
+    }
+    public void RestarFillAmount(float amount)
+    {
+        _barra.fillAmount -= amount;
+    }
+    public void ColorBarra(Color color)
+    {
+        _barra.color = color;
     }
 }
