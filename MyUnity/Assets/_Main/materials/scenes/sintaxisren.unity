@@ -500,6 +500,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TrampaMortal
   _playerStats: {fileID: 1718106537}
+  _uIManager: {fileID: 0}
 --- !u!1 &72958529
 GameObject:
   m_ObjectHideFlags: 0
@@ -1234,6 +1235,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TrampaMortal
   _playerStats: {fileID: 1718106537}
+  _uIManager: {fileID: 0}
 --- !u!212 &146293551
 SpriteRenderer:
   serializedVersion: 2
@@ -1306,6 +1308,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TrampaMortal
   _playerStats: {fileID: 0}
+  _uIManager: {fileID: 0}
 --- !u!1 &165503695
 GameObject:
   m_ObjectHideFlags: 0
@@ -1549,6 +1552,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TrampaMortal
   _playerStats: {fileID: 1718106537}
+  _uIManager: {fileID: 0}
 --- !u!1 &187240484
 GameObject:
   m_ObjectHideFlags: 0
@@ -1698,6 +1702,7 @@ GameObject:
   - component: {fileID: 193366707}
   - component: {fileID: 193366709}
   - component: {fileID: 193366708}
+  - component: {fileID: 193366710}
   m_Layer: 5
   m_Name: barra
   m_TagString: Untagged
@@ -1737,7 +1742,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
   m_Material: {fileID: 0}
-  m_Color: {r: 0.9811321, g: 0.17123532, b: 0.17123532, a: 1}
+  m_Color: {r: 0.26666668, g: 0.7411765, b: 0.27058825, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -1745,10 +1750,10 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_Sprite: {fileID: 475947568575757806, guid: f6774799b75bbf94aa8df3879ead2f33, type: 3}
-  m_Type: 0
+  m_Type: 3
   m_PreserveAspect: 0
   m_FillCenter: 1
-  m_FillMethod: 4
+  m_FillMethod: 0
   m_FillAmount: 1
   m_FillClockwise: 1
   m_FillOrigin: 0
@@ -1762,6 +1767,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 193366706}
   m_CullTransparentMesh: 1
+--- !u!114 &193366710
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 193366706}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d93d0e403b7557428987fba58b48917, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::UIManager
+  _barra: {fileID: 193366708}
 --- !u!1 &209043104
 GameObject:
   m_ObjectHideFlags: 0
@@ -1914,6 +1932,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TrampaMortal
   _playerStats: {fileID: 1718106537}
+  _uIManager: {fileID: 0}
 --- !u!1 &212588377
 GameObject:
   m_ObjectHideFlags: 0
@@ -3440,6 +3459,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TrampaMortal
   _playerStats: {fileID: 1718106537}
+  _uIManager: {fileID: 0}
 --- !u!1 &329821368
 GameObject:
   m_ObjectHideFlags: 0
@@ -3592,6 +3612,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TrampaMortal
   _playerStats: {fileID: 1718106537}
+  _uIManager: {fileID: 0}
 --- !u!1 &346232574
 GameObject:
   m_ObjectHideFlags: 0
@@ -3868,6 +3889,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TrampaMortal
   _playerStats: {fileID: 1718106537}
+  _uIManager: {fileID: 0}
 --- !u!212 &348294128
 SpriteRenderer:
   serializedVersion: 2
@@ -3940,6 +3962,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TrampaMortal
   _playerStats: {fileID: 0}
+  _uIManager: {fileID: 0}
 --- !u!1 &369329074
 GameObject:
   m_ObjectHideFlags: 0
@@ -4305,6 +4328,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TrampaMortal
   _playerStats: {fileID: 1718106537}
+  _uIManager: {fileID: 0}
 --- !u!1 &381366184
 GameObject:
   m_ObjectHideFlags: 0
@@ -4457,6 +4481,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TrampaMortal
   _playerStats: {fileID: 1718106537}
+  _uIManager: {fileID: 0}
 --- !u!1 &386647128
 GameObject:
   m_ObjectHideFlags: 0
@@ -5249,6 +5274,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TrampaMortal
   _playerStats: {fileID: 1718106537}
+  _uIManager: {fileID: 0}
 --- !u!1 &449073271
 GameObject:
   m_ObjectHideFlags: 0
@@ -5871,7 +5897,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9d93d0e403b7557428987fba58b48917, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::UiManager
-  _barra: {fileID: 0}
+  _barra: {fileID: 193366708}
 --- !u!4 &516735633
 Transform:
   m_ObjectHideFlags: 0
@@ -6039,6 +6065,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TrampaMortal
   _playerStats: {fileID: 1718106537}
+  _uIManager: {fileID: 0}
 --- !u!1 &529577923
 GameObject:
   m_ObjectHideFlags: 0
@@ -6278,7 +6305,7 @@ Transform:
   m_GameObject: {fileID: 543245934}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.09, y: 4.83, z: 0}
+  m_LocalPosition: {x: -2.09, y: 6.71, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -6506,6 +6533,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TrampaMortal
   _playerStats: {fileID: 1718106537}
+  _uIManager: {fileID: 0}
 --- !u!212 &551031515
 SpriteRenderer:
   serializedVersion: 2
@@ -6578,6 +6606,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TrampaMortal
   _playerStats: {fileID: 0}
+  _uIManager: {fileID: 0}
 --- !u!1 &585610662
 GameObject:
   m_ObjectHideFlags: 0
@@ -7086,6 +7115,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TrampaMortal
   _playerStats: {fileID: 1718106537}
+  _uIManager: {fileID: 0}
 --- !u!212 &618741516
 SpriteRenderer:
   serializedVersion: 2
@@ -7158,6 +7188,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TrampaMortal
   _playerStats: {fileID: 0}
+  _uIManager: {fileID: 0}
 --- !u!1 &621556811
 GameObject:
   m_ObjectHideFlags: 0
@@ -7310,6 +7341,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TrampaMortal
   _playerStats: {fileID: 1718106537}
+  _uIManager: {fileID: 0}
 --- !u!1 &626152551
 GameObject:
   m_ObjectHideFlags: 0
@@ -8193,6 +8225,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TrampaMortal
   _playerStats: {fileID: 1718106537}
+  _uIManager: {fileID: 0}
 --- !u!1 &677098885
 GameObject:
   m_ObjectHideFlags: 0
@@ -8618,6 +8651,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TrampaMortal
   _playerStats: {fileID: 1718106537}
+  _uIManager: {fileID: 0}
 --- !u!1 &722968950
 GameObject:
   m_ObjectHideFlags: 0
@@ -9985,6 +10019,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TrampaMortal
   _playerStats: {fileID: 1718106537}
+  _uIManager: {fileID: 0}
 --- !u!212 &807931350
 SpriteRenderer:
   serializedVersion: 2
@@ -10057,6 +10092,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TrampaMortal
   _playerStats: {fileID: 0}
+  _uIManager: {fileID: 0}
 --- !u!1 &810225798
 GameObject:
   m_ObjectHideFlags: 0
@@ -10209,6 +10245,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TrampaMortal
   _playerStats: {fileID: 1718106537}
+  _uIManager: {fileID: 0}
 --- !u!1 &816559386
 GameObject:
   m_ObjectHideFlags: 0
@@ -10394,6 +10431,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TrampaMortal
   _playerStats: {fileID: 1718106537}
+  _uIManager: {fileID: 0}
 --- !u!212 &816587891
 SpriteRenderer:
   serializedVersion: 2
@@ -10466,6 +10504,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TrampaMortal
   _playerStats: {fileID: 0}
+  _uIManager: {fileID: 0}
 --- !u!1 &821948596
 GameObject:
   m_ObjectHideFlags: 0
@@ -10560,6 +10599,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TrampaMortal
   _playerStats: {fileID: 1718106537}
+  _uIManager: {fileID: 0}
 --- !u!212 &821948600
 SpriteRenderer:
   serializedVersion: 2
@@ -10632,6 +10672,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TrampaMortal
   _playerStats: {fileID: 0}
+  _uIManager: {fileID: 0}
 --- !u!1 &827215465
 GameObject:
   m_ObjectHideFlags: 0
@@ -11427,6 +11468,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TrampaMortal
   _playerStats: {fileID: 1718106537}
+  _uIManager: {fileID: 0}
 --- !u!1 &972941728
 GameObject:
   m_ObjectHideFlags: 0
@@ -11761,6 +11803,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TrampaMortal
   _playerStats: {fileID: 1718106537}
+  _uIManager: {fileID: 0}
 --- !u!1 &1021147467
 GameObject:
   m_ObjectHideFlags: 0
@@ -12250,6 +12293,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TrampaMortal
   _playerStats: {fileID: 1718106537}
+  _uIManager: {fileID: 0}
 --- !u!212 &1030204447
 SpriteRenderer:
   serializedVersion: 2
@@ -12322,6 +12366,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TrampaMortal
   _playerStats: {fileID: 0}
+  _uIManager: {fileID: 0}
 --- !u!1 &1056735742
 GameObject:
   m_ObjectHideFlags: 0
@@ -12416,6 +12461,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TrampaMortal
   _playerStats: {fileID: 1718106537}
+  _uIManager: {fileID: 0}
 --- !u!212 &1056735746
 SpriteRenderer:
   serializedVersion: 2
@@ -12488,6 +12534,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TrampaMortal
   _playerStats: {fileID: 0}
+  _uIManager: {fileID: 0}
 --- !u!1 &1059842649
 GameObject:
   m_ObjectHideFlags: 0
@@ -12869,6 +12916,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TrampaMortal
   _playerStats: {fileID: 1718106537}
+  _uIManager: {fileID: 0}
 --- !u!1 &1095431677
 GameObject:
   m_ObjectHideFlags: 0
@@ -13445,6 +13493,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TrampaMortal
   _playerStats: {fileID: 1718106537}
+  _uIManager: {fileID: 0}
 --- !u!1 &1126184719
 GameObject:
   m_ObjectHideFlags: 0
@@ -13964,6 +14013,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TrampaMortal
   _playerStats: {fileID: 1718106537}
+  _uIManager: {fileID: 0}
 --- !u!1 &1138568258
 GameObject:
   m_ObjectHideFlags: 0
@@ -14116,6 +14166,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TrampaMortal
   _playerStats: {fileID: 1718106537}
+  _uIManager: {fileID: 0}
 --- !u!1 &1139499121
 GameObject:
   m_ObjectHideFlags: 0
@@ -14360,6 +14411,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TrampaMortal
   _playerStats: {fileID: 1718106537}
+  _uIManager: {fileID: 0}
 --- !u!1 &1157510288
 GameObject:
   m_ObjectHideFlags: 0
@@ -14512,6 +14564,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TrampaMortal
   _playerStats: {fileID: 1718106537}
+  _uIManager: {fileID: 0}
 --- !u!1 &1165192091
 GameObject:
   m_ObjectHideFlags: 0
@@ -17711,6 +17764,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TrampaMortal
   _playerStats: {fileID: 1718106537}
+  _uIManager: {fileID: 0}
 --- !u!1 &1498505499
 GameObject:
   m_ObjectHideFlags: 0
@@ -18318,6 +18372,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TrampaMortal
   _playerStats: {fileID: 1718106537}
+  _uIManager: {fileID: 0}
 --- !u!1 &1565647789
 GameObject:
   m_ObjectHideFlags: 0
@@ -19021,6 +19076,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TrampaMortal
   _playerStats: {fileID: 1718106537}
+  _uIManager: {fileID: 0}
 --- !u!212 &1663196884
 SpriteRenderer:
   serializedVersion: 2
@@ -19093,6 +19149,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TrampaMortal
   _playerStats: {fileID: 0}
+  _uIManager: {fileID: 0}
 --- !u!1 &1666934473
 GameObject:
   m_ObjectHideFlags: 0
@@ -19509,8 +19566,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6205ff9f629e4dd45981edd645a323bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerStats
-  _puntosVida: 100
-  _uiManager: {fileID: 0}
+  _puntosVidaActuales: 100
+  _puntosVidaMaximo: 100
+  _uiManager: {fileID: 516735632}
 --- !u!1 &1740027963
 GameObject:
   m_ObjectHideFlags: 0
@@ -19663,6 +19721,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TrampaMortal
   _playerStats: {fileID: 1718106537}
+  _uIManager: {fileID: 0}
 --- !u!1 &1745350686
 GameObject:
   m_ObjectHideFlags: 0
@@ -20076,6 +20135,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TrampaMortal
   _playerStats: {fileID: 1718106537}
+  _uIManager: {fileID: 0}
 --- !u!1 &1765166679
 GameObject:
   m_ObjectHideFlags: 0
@@ -20170,6 +20230,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TrampaMortal
   _playerStats: {fileID: 1718106537}
+  _uIManager: {fileID: 0}
 --- !u!212 &1765166683
 SpriteRenderer:
   serializedVersion: 2
@@ -20242,6 +20303,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TrampaMortal
   _playerStats: {fileID: 0}
+  _uIManager: {fileID: 0}
 --- !u!1 &1772500588
 GameObject:
   m_ObjectHideFlags: 0
@@ -21043,6 +21105,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TrampaMortal
   _playerStats: {fileID: 1718106537}
+  _uIManager: {fileID: 0}
 --- !u!1 &1856587476
 GameObject:
   m_ObjectHideFlags: 0
@@ -21286,6 +21349,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TrampaMortal
   _playerStats: {fileID: 1718106537}
+  _uIManager: {fileID: 0}
 --- !u!1 &1899915999
 GameObject:
   m_ObjectHideFlags: 0
@@ -21438,6 +21502,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TrampaMortal
   _playerStats: {fileID: 1718106537}
+  _uIManager: {fileID: 0}
 --- !u!1 &1907567642
 GameObject:
   m_ObjectHideFlags: 0
@@ -22101,6 +22166,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TrampaMortal
   _playerStats: {fileID: 1718106537}
+  _uIManager: {fileID: 0}
 --- !u!1 &1941284314
 GameObject:
   m_ObjectHideFlags: 0
@@ -22195,6 +22261,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TrampaMortal
   _playerStats: {fileID: 1718106537}
+  _uIManager: {fileID: 0}
 --- !u!212 &1941284318
 SpriteRenderer:
   serializedVersion: 2
@@ -22267,6 +22334,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TrampaMortal
   _playerStats: {fileID: 0}
+  _uIManager: {fileID: 0}
 --- !u!1 &1984004959
 GameObject:
   m_ObjectHideFlags: 0
@@ -22681,6 +22749,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TrampaMortal
   _playerStats: {fileID: 1718106537}
+  _uIManager: {fileID: 0}
 --- !u!212 &2014760294
 SpriteRenderer:
   serializedVersion: 2
@@ -22753,6 +22822,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TrampaMortal
   _playerStats: {fileID: 0}
+  _uIManager: {fileID: 0}
 --- !u!1 &2017679008
 GameObject:
   m_ObjectHideFlags: 0
@@ -22905,6 +22975,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TrampaMortal
   _playerStats: {fileID: 1718106537}
+  _uIManager: {fileID: 0}
 --- !u!1 &2041394003
 GameObject:
   m_ObjectHideFlags: 0
@@ -23148,6 +23219,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TrampaMortal
   _playerStats: {fileID: 1718106537}
+  _uIManager: {fileID: 0}
 --- !u!1 &2058847350
 GameObject:
   m_ObjectHideFlags: 0
@@ -24111,6 +24183,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TrampaMortal
   _playerStats: {fileID: 1718106537}
+  _uIManager: {fileID: 0}
 --- !u!212 &2095410138
 SpriteRenderer:
   serializedVersion: 2
@@ -24183,6 +24256,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TrampaMortal
   _playerStats: {fileID: 0}
+  _uIManager: {fileID: 0}
 --- !u!1 &2100701516
 GameObject:
   m_ObjectHideFlags: 0
