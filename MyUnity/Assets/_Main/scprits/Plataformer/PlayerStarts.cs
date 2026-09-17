@@ -21,22 +21,34 @@ public class PlayerStats : MonoBehaviour
 
     private void Update()
     {
-        // Vida del jugador es >= 80, Color = Verde
+  
+
         if (_puntosVidaActuales >= 80)
         {
-            _uiManager.ColorBarra(new Color(68f/255f, 189f/255f, 68f/255f, 255f/255f));
+            _uiManager.ColorBarra(new Color(68f / 255f, 189f / 255f, 68f / 255f, 225f / 255f));
         }
 
-        // Vida del jugador es < 40 > 80, Color = Naranja
-        if (40 <= _puntosVidaActuales && _puntosVidaActuales < 80)
+
+        if (_puntosVidaActuales < 80)
         {
-            _uiManager.ColorBarra(new Color(245f/255f, 73f/255f, 39f/255f, 255f/255f));
+            _uiManager.ColorBarra(new Color(245f / 255f, 73f / 255f, 39f / 255f, 255f / 255f));
         }
 
-        // Vida del jugador es < 40, Color = Rojo
-        if (_puntosVidaActuales < 40)
+
+        if (_puntosVidaActuales <= 40)
         {
-            _uiManager.ColorBarra(new Color(189f/255f, 15f/255f, 15f/255f, 255f/233f));
+            _uiManager.ColorBarra(new Color(189f / 255f, 15f / 255f, 15f / 255f, 255f / 255f));
+
+            if (_puntosVidaActuales > 100)
+            {
+                _puntosVidaActuales = 100;
+            }
+
+            if (_puntosVidaActuales <= 0)
+            {
+                Destroy(this.gameObject);
+            }
         }
+
     }
-} 
+}
