@@ -10,8 +10,19 @@ public class GameManager : MonoBehaviour
         SceneManager.LoadScene(scene);
     }
 
-    // Update is called once per frame
+public void SalirDelJuego()
+    {
+        Application.Quit();
+    }
     
-        
-    
+public void PausarElJuego()
+    {
+        Time.timeScale = 0;
+    }
+
+    public void RenundarElJuego()
+    {
+        Time.timeScale = 1;
+    }
+
 }
