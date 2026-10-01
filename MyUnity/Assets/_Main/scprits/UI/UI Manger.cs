@@ -5,13 +5,13 @@ public class UIManager : MonoBehaviour
 {
     [SerializeField] private Image _barra;
 
-    public void SumarFillAmount(float amount)
+    public void SumarFillAmount(float amount = 0.1f)
     {
         _barra.fillAmount += amount;
     }
-    public void RestarFillAmount(float amount)
+    public void RestarFillAmount(float amount =0.1f)
     {
-        _barra.fillAmount = amount = _barra.fillAmount - amount;
+        _barra.fillAmount -= amount;
     }
     public void ColorBarra(Color myColor)
     {
