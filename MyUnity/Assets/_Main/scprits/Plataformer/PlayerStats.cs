@@ -47,7 +47,13 @@ public class PlayerStats : MonoBehaviour
             {
                 Destroy(this.gameObject);
             }
+
+            if (_puntosVidaActuales <= 0)
+            {
+                Destroy(this.gameObject);
+            }
         }
+    
 
     }
 }
