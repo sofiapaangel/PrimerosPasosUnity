@@ -1703,6 +1703,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: panel fondo menu
       objectReference: {fileID: 0}
+    - target: {fileID: 6704824754143363246, guid: 04e6bc9ebb3f8a541bc54ee0ae34a2e6, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7234713021520064876, guid: 04e6bc9ebb3f8a541bc54ee0ae34a2e6, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
