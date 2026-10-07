@@ -5,9 +5,18 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/SampleScene.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
+  - enabled: 1
+    path: Assets/_Main/scenes/MainMenu.unity
+    guid: 24cfcef6cfc5abe468b3091b48d1af51
+  - enabled: 1
+    path: Assets/_Main/scenes/sintaxisren.unity
+    guid: aff5c81c399e80343a16e9960f1f321b
+  - enabled: 0
+    path: Assets/_Main/scenes/Taller Sintaxis.unity
+    guid: 181d989bb42d74e4fb378c96460810d2
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
