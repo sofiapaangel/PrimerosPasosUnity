@@ -1,17 +1,16 @@
-using UnityEngine;
+ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
     // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    void Start ()
     {
         Debug.Log("start");
-
-        
     }
 
-    // Update is called once per frame
-    void Update()
-    {Debug.Log("update");
+// Update is called once per frame
+   void Update ()
+    {
+        Debug.Log("update");
     }
 }

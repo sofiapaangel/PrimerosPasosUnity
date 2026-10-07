@@ -358,8 +358,8 @@ GameObject:
   m_Component:
   - component: {fileID: 57282132}
   - component: {fileID: 57282135}
+  - component: {fileID: 57282134}
   - component: {fileID: 57282133}
-  - component: {fileID: 57282136}
   m_Layer: 0
   m_Name: Cactus mortal (37)
   m_TagString: Untagged
@@ -428,6 +428,18 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1.3125, y: 0.9375}
   m_EdgeRadius: 0
+--- !u!114 &57282134
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 57282131}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f5dde8d2fd8e6d240bdd688706dc09a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TrampaMortal
 --- !u!212 &57282135
 SpriteRenderer:
   serializedVersion: 2
@@ -487,172 +499,6 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
---- !u!114 &57282136
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 57282131}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f5dde8d2fd8e6d240bdd688706dc09a7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::TrampaMortal
-  _playerStats: {fileID: 1718106537}
-  _uIManager: {fileID: 516735632}
---- !u!1 &67267245
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 67267249}
-  - component: {fileID: 67267248}
-  - component: {fileID: 67267247}
-  - component: {fileID: 67267246}
-  m_Layer: 0
-  m_Name: Ground (45)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &67267246
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 67267245}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fc9b1cc40ccf61446b0db37f63030555, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: '::'
-  panelganaste: {fileID: 2057136760}
---- !u!61 &67267247
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 67267245}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_ForceSendLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ForceReceiveLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ContactCaptureLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_CallbackLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_CompositeOperation: 0
-  m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 1.5}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0}
-    oldSize: {x: 3, y: 3}
-    newSize: {x: 3, y: 3}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  m_Size: {x: 3, y: 3}
-  m_EdgeRadius: 0
---- !u!212 &67267248
-SpriteRenderer:
-  serializedVersion: 2
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 67267245}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 0
-  m_RayTraceProcedural: 0
-  m_RayTracingAccelStructBuildFlagsOverride: 0
-  m_RayTracingAccelStructBuildFlags: 1
-  m_SmallMeshCulling: 1
-  m_ForceMeshLod: -1
-  m_MeshLodSelectionBias: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_GlobalIlluminationMeshLod: 0
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_MaskInteraction: 0
-  m_Sprite: {fileID: 21300000, guid: 55c38370a8cd6314a8626c513e426605, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 0}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 3, y: 3}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_SpriteSortPoint: 0
---- !u!4 &67267249
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 67267245}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 155.13, y: 0.77, z: 0}
-  m_LocalScale: {x: 1.1223943, y: 0.681035, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &72958529
 GameObject:
   m_ObjectHideFlags: 0
@@ -1305,7 +1151,6 @@ GameObject:
   - component: {fileID: 146293551}
   - component: {fileID: 146293550}
   - component: {fileID: 146293549}
-  - component: {fileID: 146293552}
   m_Layer: 0
   m_Name: Cactus mortal (2)
   m_TagString: Untagged
@@ -1322,7 +1167,7 @@ Transform:
   m_GameObject: {fileID: 146293547}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 4.500001, y: -5.31, z: 0}
+  m_LocalPosition: {x: 4.54, y: -5.31, z: 0}
   m_LocalScale: {x: 0.9546, y: 0.8773, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1386,8 +1231,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f5dde8d2fd8e6d240bdd688706dc09a7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TrampaMortal
-  _playerStats: {fileID: 1718106537}
-  _uIManager: {fileID: 516735632}
 --- !u!212 &146293551
 SpriteRenderer:
   serializedVersion: 2
@@ -1447,20 +1290,6 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
---- !u!114 &146293552
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 146293547}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f5dde8d2fd8e6d240bdd688706dc09a7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::TrampaMortal
-  _playerStats: {fileID: 1718106537}
-  _uIManager: {fileID: 516735632}
 --- !u!1 &165503695
 GameObject:
   m_ObjectHideFlags: 0
@@ -1562,8 +1391,8 @@ GameObject:
   m_Component:
   - component: {fileID: 175337059}
   - component: {fileID: 175337062}
+  - component: {fileID: 175337061}
   - component: {fileID: 175337060}
-  - component: {fileID: 175337063}
   m_Layer: 0
   m_Name: Cactus mortal (30)
   m_TagString: Untagged
@@ -1632,6 +1461,18 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1.75, y: 1.25}
   m_EdgeRadius: 0
+--- !u!114 &175337061
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 175337058}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f5dde8d2fd8e6d240bdd688706dc09a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TrampaMortal
 --- !u!212 &175337062
 SpriteRenderer:
   serializedVersion: 2
@@ -1691,20 +1532,6 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
---- !u!114 &175337063
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 175337058}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f5dde8d2fd8e6d240bdd688706dc09a7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::TrampaMortal
-  _playerStats: {fileID: 1718106537}
-  _uIManager: {fileID: 516735632}
 --- !u!1 &187240484
 GameObject:
   m_ObjectHideFlags: 0
@@ -1843,95 +1670,6 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
---- !u!1 &193366706
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 193366707}
-  - component: {fileID: 193366709}
-  - component: {fileID: 193366708}
-  - component: {fileID: 193366710}
-  m_Layer: 5
-  m_Name: barra
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &193366707
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 193366706}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1670786468}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -254.99998, y: 131.32}
-  m_SizeDelta: {x: 201.9165, y: 33.095}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &193366708
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 193366706}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
-  m_Material: {fileID: 0}
-  m_Color: {r: 0.26666668, g: 0.7411765, b: 0.27058825, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 475947568575757806, guid: f6774799b75bbf94aa8df3879ead2f33, type: 3}
-  m_Type: 3
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 0
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &193366709
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 193366706}
-  m_CullTransparentMesh: 1
---- !u!114 &193366710
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 193366706}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9d93d0e403b7557428987fba58b48917, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::UIManager
-  _barra: {fileID: 193366708}
 --- !u!1 &209043104
 GameObject:
   m_ObjectHideFlags: 0
@@ -1943,7 +1681,7 @@ GameObject:
   - component: {fileID: 209043105}
   - component: {fileID: 209043108}
   - component: {fileID: 209043107}
-  - component: {fileID: 209043109}
+  - component: {fileID: 209043106}
   m_Layer: 0
   m_Name: Cactus mortal (6)
   m_TagString: Untagged
@@ -1966,6 +1704,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 788759123}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &209043106
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 209043104}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f5dde8d2fd8e6d240bdd688706dc09a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TrampaMortal
 --- !u!61 &209043107
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2071,20 +1821,6 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
---- !u!114 &209043109
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 209043104}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f5dde8d2fd8e6d240bdd688706dc09a7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::TrampaMortal
-  _playerStats: {fileID: 1718106537}
-  _uIManager: {fileID: 516735632}
 --- !u!1 &212588377
 GameObject:
   m_ObjectHideFlags: 0
@@ -3210,8 +2946,8 @@ Transform:
   m_GameObject: {fileID: 316168045}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -27.1599, y: -6.373, z: 0}
-  m_LocalScale: {x: 9.035166, y: 0.91911584, z: 1}
+  m_LocalPosition: {x: -27.2413, y: -6.373, z: 0}
+  m_LocalScale: {x: 9.089456, y: 0.91911584, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 788759123}
@@ -3470,7 +3206,7 @@ GameObject:
   - component: {fileID: 322146878}
   - component: {fileID: 322146877}
   - component: {fileID: 322146876}
-  - component: {fileID: 322146880}
+  - component: {fileID: 322146879}
   m_Layer: 0
   m_Name: Cactus mortal
   m_TagString: Untagged
@@ -3598,7 +3334,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 788759123}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &322146880
+--- !u!114 &322146879
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3610,8 +3346,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f5dde8d2fd8e6d240bdd688706dc09a7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TrampaMortal
-  _playerStats: {fileID: 1718106537}
-  _uIManager: {fileID: 516735632}
 --- !u!1 &329821368
 GameObject:
   m_ObjectHideFlags: 0
@@ -3623,7 +3357,7 @@ GameObject:
   - component: {fileID: 329821369}
   - component: {fileID: 329821372}
   - component: {fileID: 329821371}
-  - component: {fileID: 329821373}
+  - component: {fileID: 329821370}
   m_Layer: 0
   m_Name: Cactus mortal (33)
   m_TagString: Untagged
@@ -3646,6 +3380,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 788759123}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &329821370
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 329821368}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f5dde8d2fd8e6d240bdd688706dc09a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TrampaMortal
 --- !u!61 &329821371
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3751,20 +3497,6 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
---- !u!114 &329821373
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 329821368}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f5dde8d2fd8e6d240bdd688706dc09a7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::TrampaMortal
-  _playerStats: {fileID: 1718106537}
-  _uIManager: {fileID: 516735632}
 --- !u!1 &346232574
 GameObject:
   m_ObjectHideFlags: 0
@@ -3959,7 +3691,6 @@ GameObject:
   - component: {fileID: 348294128}
   - component: {fileID: 348294127}
   - component: {fileID: 348294126}
-  - component: {fileID: 348294129}
   m_Layer: 0
   m_Name: Cactus mortal (5)
   m_TagString: Untagged
@@ -4040,8 +3771,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f5dde8d2fd8e6d240bdd688706dc09a7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TrampaMortal
-  _playerStats: {fileID: 1718106537}
-  _uIManager: {fileID: 0}
 --- !u!212 &348294128
 SpriteRenderer:
   serializedVersion: 2
@@ -4101,20 +3830,6 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
---- !u!114 &348294129
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 348294124}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f5dde8d2fd8e6d240bdd688706dc09a7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::TrampaMortal
-  _playerStats: {fileID: 0}
-  _uIManager: {fileID: 0}
 --- !u!1 &369329074
 GameObject:
   m_ObjectHideFlags: 0
@@ -4253,81 +3968,6 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
---- !u!1 &370165053
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 370165054}
-  - component: {fileID: 370165056}
-  - component: {fileID: 370165055}
-  m_Layer: 5
-  m_Name: corazon
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &370165054
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 370165053}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1670786468}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -368.7, y: 138.26}
-  m_SizeDelta: {x: 68.0658, y: 73.1404}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &370165055
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 370165053}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: -6129407692978914199, guid: 2aeec4bf8f14cb047a90e79e4d5679eb, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &370165056
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 370165053}
-  m_CullTransparentMesh: 1
 --- !u!1 &377514079
 GameObject:
   m_ObjectHideFlags: 0
@@ -4338,8 +3978,8 @@ GameObject:
   m_Component:
   - component: {fileID: 377514080}
   - component: {fileID: 377514083}
+  - component: {fileID: 377514082}
   - component: {fileID: 377514081}
-  - component: {fileID: 377514084}
   m_Layer: 0
   m_Name: Cactus mortal (27)
   m_TagString: Untagged
@@ -4408,6 +4048,18 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1.75, y: 1.25}
   m_EdgeRadius: 0
+--- !u!114 &377514082
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 377514079}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f5dde8d2fd8e6d240bdd688706dc09a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TrampaMortal
 --- !u!212 &377514083
 SpriteRenderer:
   serializedVersion: 2
@@ -4467,20 +4119,6 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
---- !u!114 &377514084
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 377514079}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f5dde8d2fd8e6d240bdd688706dc09a7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::TrampaMortal
-  _playerStats: {fileID: 1718106537}
-  _uIManager: {fileID: 516735632}
 --- !u!1 &381366184
 GameObject:
   m_ObjectHideFlags: 0
@@ -4491,8 +4129,8 @@ GameObject:
   m_Component:
   - component: {fileID: 381366185}
   - component: {fileID: 381366188}
+  - component: {fileID: 381366187}
   - component: {fileID: 381366186}
-  - component: {fileID: 381366189}
   m_Layer: 0
   m_Name: Cactus mortal (32)
   m_TagString: Untagged
@@ -4561,6 +4199,18 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1.75, y: 1.25}
   m_EdgeRadius: 0
+--- !u!114 &381366187
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 381366184}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f5dde8d2fd8e6d240bdd688706dc09a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TrampaMortal
 --- !u!212 &381366188
 SpriteRenderer:
   serializedVersion: 2
@@ -4620,20 +4270,6 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
---- !u!114 &381366189
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 381366184}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f5dde8d2fd8e6d240bdd688706dc09a7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::TrampaMortal
-  _playerStats: {fileID: 1718106537}
-  _uIManager: {fileID: 516735632}
 --- !u!1 &386647128
 GameObject:
   m_ObjectHideFlags: 0
@@ -5284,8 +4920,8 @@ GameObject:
   m_Component:
   - component: {fileID: 436812648}
   - component: {fileID: 436812647}
+  - component: {fileID: 436812646}
   - component: {fileID: 436812645}
-  - component: {fileID: 436812649}
   m_Layer: 0
   m_Name: Cactus mortal (5)
   m_TagString: Untagged
@@ -5339,6 +4975,18 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1.3125, y: 0.9375}
   m_EdgeRadius: 0
+--- !u!114 &436812646
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 436812644}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f5dde8d2fd8e6d240bdd688706dc09a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TrampaMortal
 --- !u!212 &436812647
 SpriteRenderer:
   serializedVersion: 2
@@ -5407,26 +5055,12 @@ Transform:
   m_GameObject: {fileID: 436812644}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 9.480001, y: -5.33, z: 0}
+  m_LocalPosition: {x: 9.52, y: -5.33, z: 0}
   m_LocalScale: {x: 0.87659997, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 788759123}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &436812649
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 436812644}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f5dde8d2fd8e6d240bdd688706dc09a7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::TrampaMortal
-  _playerStats: {fileID: 1718106537}
-  _uIManager: {fileID: 516735632}
 --- !u!1 &449073271
 GameObject:
   m_ObjectHideFlags: 0
@@ -6020,51 +5654,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 788759123}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &516735631
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 516735633}
-  - component: {fileID: 516735632}
-  m_Layer: 0
-  m_Name: IUManager
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &516735632
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 516735631}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9d93d0e403b7557428987fba58b48917, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::UiManager
-  _barra: {fileID: 193366708}
---- !u!4 &516735633
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 516735631}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 394.4586, y: 438.5728, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &519006649
 GameObject:
   m_ObjectHideFlags: 0
@@ -6075,8 +5664,8 @@ GameObject:
   m_Component:
   - component: {fileID: 519006650}
   - component: {fileID: 519006653}
+  - component: {fileID: 519006652}
   - component: {fileID: 519006651}
-  - component: {fileID: 519006654}
   m_Layer: 0
   m_Name: Cactus mortal (13)
   m_TagString: Untagged
@@ -6145,6 +5734,18 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 0.75, y: 1.25}
   m_EdgeRadius: 0
+--- !u!114 &519006652
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 519006649}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f5dde8d2fd8e6d240bdd688706dc09a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TrampaMortal
 --- !u!212 &519006653
 SpriteRenderer:
   serializedVersion: 2
@@ -6204,20 +5805,6 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
---- !u!114 &519006654
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 519006649}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f5dde8d2fd8e6d240bdd688706dc09a7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::TrampaMortal
-  _playerStats: {fileID: 1718106537}
-  _uIManager: {fileID: 516735632}
 --- !u!1 &529577923
 GameObject:
   m_ObjectHideFlags: 0
@@ -6356,150 +5943,6 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
---- !u!1 &543245934
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 543245937}
-  - component: {fileID: 543245936}
-  - component: {fileID: 543245935}
-  - component: {fileID: 543245938}
-  m_Layer: 0
-  m_Name: nube de vida 2
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &543245935
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 543245934}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 891251c5c2be441489798c38d59a292f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Heal
-  _playerStats: {fileID: 1718106537}
-  _uiManger: {fileID: 0}
---- !u!212 &543245936
-SpriteRenderer:
-  serializedVersion: 2
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 543245934}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 0
-  m_RayTraceProcedural: 0
-  m_RayTracingAccelStructBuildFlagsOverride: 0
-  m_RayTracingAccelStructBuildFlags: 1
-  m_SmallMeshCulling: 1
-  m_ForceMeshLod: -1
-  m_MeshLodSelectionBias: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_GlobalIlluminationMeshLod: 0
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_MaskInteraction: 0
-  m_Sprite: {fileID: 21300000, guid: bd79f3830e84cf543972a859dc0807e8, type: 3}
-  m_Color: {r: 1, g: 0.6462264, b: 0.9037534, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 1.25, y: 0.6875}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_SpriteSortPoint: 0
---- !u!4 &543245937
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 543245934}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.09, y: 6.71, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!70 &543245938
-CapsuleCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 543245934}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_ForceSendLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ForceReceiveLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ContactCaptureLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_CallbackLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_CompositeOperation: 0
-  m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0.34375}
-  m_Size: {x: 1.25, y: 0.6875}
-  m_Direction: 0
 --- !u!1 &550488047
 GameObject:
   m_ObjectHideFlags: 0
@@ -6603,7 +6046,6 @@ GameObject:
   - component: {fileID: 551031515}
   - component: {fileID: 551031514}
   - component: {fileID: 551031513}
-  - component: {fileID: 551031516}
   m_Layer: 0
   m_Name: Cactus mortal (21)
   m_TagString: Untagged
@@ -6684,8 +6126,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f5dde8d2fd8e6d240bdd688706dc09a7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TrampaMortal
-  _playerStats: {fileID: 1718106537}
-  _uIManager: {fileID: 516735632}
 --- !u!212 &551031515
 SpriteRenderer:
   serializedVersion: 2
@@ -6745,20 +6185,6 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
---- !u!114 &551031516
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 551031511}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f5dde8d2fd8e6d240bdd688706dc09a7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::TrampaMortal
-  _playerStats: {fileID: 1718106537}
-  _uIManager: {fileID: 516735632}
 --- !u!1 &585610662
 GameObject:
   m_ObjectHideFlags: 0
@@ -7035,6 +6461,85 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!1 &600529995
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 600529998}
+  - component: {fileID: 600529997}
+  - component: {fileID: 600529996}
+  m_Layer: 0
+  m_Name: EventSystem
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &600529996
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 600529995}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01614664b831546d2ae94a42149d80ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.InputSystem::UnityEngine.InputSystem.UI.InputSystemUIInputModule
+  m_SendPointerHoverToParent: 1
+  m_MoveRepeatDelay: 0.5
+  m_MoveRepeatRate: 0.1
+  m_XRTrackingOrigin: {fileID: 0}
+  m_ActionsAsset: {fileID: -944628639613478452, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_PointAction: {fileID: -1654692200621890270, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_MoveAction: {fileID: -8784545083839296357, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_SubmitAction: {fileID: 392368643174621059, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_CancelAction: {fileID: 7727032971491509709, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_LeftClickAction: {fileID: 3001919216989983466, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_MiddleClickAction: {fileID: -2185481485913320682, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_RightClickAction: {fileID: -4090225696740746782, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_ScrollWheelAction: {fileID: 6240969308177333660, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_TrackedDevicePositionAction: {fileID: 6564999863303420839, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_TrackedDeviceOrientationAction: {fileID: 7970375526676320489, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_DeselectOnBackgroundClick: 1
+  m_PointerBehavior: 0
+  m_CursorLockBehavior: 0
+  m_ScrollDeltaPerTick: 6
+--- !u!114 &600529997
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 600529995}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76c392e42b5098c458856cdf6ecaaaa1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.EventSystems.EventSystem
+  m_FirstSelected: {fileID: 0}
+  m_sendNavigationEvents: 1
+  m_DragThreshold: 10
+--- !u!4 &600529998
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 600529995}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &600619037
 GameObject:
   m_ObjectHideFlags: 0
@@ -7173,138 +6678,6 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
---- !u!1 &601531694
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 601531695}
-  - component: {fileID: 601531698}
-  - component: {fileID: 601531697}
-  - component: {fileID: 601531696}
-  m_Layer: 5
-  m_Name: volver
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &601531695
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 601531694}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1782123459}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -176.3474, y: -146.47609}
-  m_SizeDelta: {x: 105.7592, y: 42.9529}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &601531696
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 601531694}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Button
-  m_Navigation:
-    m_Mode: 3
-    m_WrapAround: 0
-    m_SelectOnUp: {fileID: 0}
-    m_SelectOnDown: {fileID: 0}
-    m_SelectOnLeft: {fileID: 0}
-    m_SelectOnRight: {fileID: 0}
-  m_Transition: 1
-  m_Colors:
-    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
-    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
-    m_ColorMultiplier: 1
-    m_FadeDuration: 0.1
-  m_SpriteState:
-    m_HighlightedSprite: {fileID: 0}
-    m_PressedSprite: {fileID: 0}
-    m_SelectedSprite: {fileID: 0}
-    m_DisabledSprite: {fileID: 0}
-  m_AnimationTriggers:
-    m_NormalTrigger: Normal
-    m_HighlightedTrigger: Highlighted
-    m_PressedTrigger: Pressed
-    m_SelectedTrigger: Selected
-    m_DisabledTrigger: Disabled
-  m_Interactable: 1
-  m_TargetGraphic: {fileID: 601531697}
-  m_OnClick:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1301541775}
-        m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
-        m_MethodName: CargarEscena
-        m_Mode: 3
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 1
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
---- !u!114 &601531697
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 601531694}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &601531698
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 601531694}
-  m_CullTransparentMesh: 1
 --- !u!1 &618741512
 GameObject:
   m_ObjectHideFlags: 0
@@ -7317,7 +6690,6 @@ GameObject:
   - component: {fileID: 618741516}
   - component: {fileID: 618741515}
   - component: {fileID: 618741514}
-  - component: {fileID: 618741517}
   m_Layer: 0
   m_Name: Cactus mortal (17)
   m_TagString: Untagged
@@ -7334,7 +6706,7 @@ Transform:
   m_GameObject: {fileID: 618741512}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 14.480001, y: -5.31, z: 0}
+  m_LocalPosition: {x: 14.52, y: -5.31, z: 0}
   m_LocalScale: {x: 0.9546, y: 0.8773, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -7398,8 +6770,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f5dde8d2fd8e6d240bdd688706dc09a7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TrampaMortal
-  _playerStats: {fileID: 1718106537}
-  _uIManager: {fileID: 516735632}
 --- !u!212 &618741516
 SpriteRenderer:
   serializedVersion: 2
@@ -7459,20 +6829,6 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
---- !u!114 &618741517
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 618741512}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f5dde8d2fd8e6d240bdd688706dc09a7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::TrampaMortal
-  _playerStats: {fileID: 1718106537}
-  _uIManager: {fileID: 516735632}
 --- !u!1 &621556811
 GameObject:
   m_ObjectHideFlags: 0
@@ -7483,8 +6839,8 @@ GameObject:
   m_Component:
   - component: {fileID: 621556812}
   - component: {fileID: 621556815}
+  - component: {fileID: 621556814}
   - component: {fileID: 621556813}
-  - component: {fileID: 621556816}
   m_Layer: 0
   m_Name: Cactus mortal (14)
   m_TagString: Untagged
@@ -7553,6 +6909,18 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1.75, y: 1.25}
   m_EdgeRadius: 0
+--- !u!114 &621556814
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 621556811}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f5dde8d2fd8e6d240bdd688706dc09a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TrampaMortal
 --- !u!212 &621556815
 SpriteRenderer:
   serializedVersion: 2
@@ -7612,20 +6980,6 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
---- !u!114 &621556816
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 621556811}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f5dde8d2fd8e6d240bdd688706dc09a7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::TrampaMortal
-  _playerStats: {fileID: 1718106537}
-  _uIManager: {fileID: 516735632}
 --- !u!1 &626152551
 GameObject:
   m_ObjectHideFlags: 0
@@ -8367,8 +7721,8 @@ GameObject:
   m_Component:
   - component: {fileID: 665973105}
   - component: {fileID: 665973108}
+  - component: {fileID: 665973107}
   - component: {fileID: 665973106}
-  - component: {fileID: 665973109}
   m_Layer: 0
   m_Name: Cactus mortal (15)
   m_TagString: Untagged
@@ -8437,6 +7791,18 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1.3125, y: 0.9375}
   m_EdgeRadius: 0
+--- !u!114 &665973107
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 665973104}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f5dde8d2fd8e6d240bdd688706dc09a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TrampaMortal
 --- !u!212 &665973108
 SpriteRenderer:
   serializedVersion: 2
@@ -8496,20 +7862,6 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
---- !u!114 &665973109
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 665973104}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f5dde8d2fd8e6d240bdd688706dc09a7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::TrampaMortal
-  _playerStats: {fileID: 1718106537}
-  _uIManager: {fileID: 516735632}
 --- !u!1 &677098885
 GameObject:
   m_ObjectHideFlags: 0
@@ -8794,7 +8146,7 @@ GameObject:
   - component: {fileID: 703959308}
   - component: {fileID: 703959311}
   - component: {fileID: 703959310}
-  - component: {fileID: 703959312}
+  - component: {fileID: 703959309}
   m_Layer: 0
   m_Name: Cactus mortal (36)
   m_TagString: Untagged
@@ -8817,6 +8169,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 788759123}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &703959309
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 703959307}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f5dde8d2fd8e6d240bdd688706dc09a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TrampaMortal
 --- !u!61 &703959310
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -8922,30 +8286,6 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
---- !u!114 &703959312
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 703959307}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f5dde8d2fd8e6d240bdd688706dc09a7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::TrampaMortal
-  _playerStats: {fileID: 1718106537}
-  _uIManager: {fileID: 516735632}
---- !u!1 &716888708 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6704824754143363246, guid: 04e6bc9ebb3f8a541bc54ee0ae34a2e6, type: 3}
-  m_PrefabInstance: {fileID: 845963483}
-  m_PrefabAsset: {fileID: 0}
---- !u!224 &716888711 stripped
-RectTransform:
-  m_CorrespondingSourceObject: {fileID: 7234713021520064876, guid: 04e6bc9ebb3f8a541bc54ee0ae34a2e6, type: 3}
-  m_PrefabInstance: {fileID: 845963483}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &722968950
 GameObject:
   m_ObjectHideFlags: 0
@@ -9771,143 +9111,6 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
---- !u!1 &752547215
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 752547216}
-  - component: {fileID: 752547218}
-  - component: {fileID: 752547217}
-  m_Layer: 5
-  m_Name: tiempo
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &752547216
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 752547215}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1670786468}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.53300005}
-  m_AnchoredPosition: {x: 42.4324, y: 146.02}
-  m_SizeDelta: {x: 120.8649, y: 33.033}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &752547217
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 752547215}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Unity.TextMeshPro::TMPro.TextMeshProUGUI
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_text: 00:00
-  m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_fontSharedMaterials: []
-  m_fontMaterial: {fileID: 0}
-  m_fontMaterials: []
-  m_fontColor32:
-    serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
-  m_enableVertexGradient: 0
-  m_colorMode: 3
-  m_fontColorGradient:
-    topLeft: {r: 1, g: 1, b: 1, a: 1}
-    topRight: {r: 1, g: 1, b: 1, a: 1}
-    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
-    bottomRight: {r: 1, g: 1, b: 1, a: 1}
-  m_fontColorGradientPreset: {fileID: 0}
-  m_spriteAsset: {fileID: 0}
-  m_tintAllSprites: 0
-  m_StyleSheet: {fileID: 0}
-  m_TextStyleHashCode: -1183493901
-  m_overrideHtmlColors: 0
-  m_faceColor:
-    serializedVersion: 2
-    rgba: 4294967295
-  m_fontSize: 36
-  m_fontSizeBase: 36
-  m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
-  m_fontSizeMax: 72
-  m_fontStyle: 0
-  m_HorizontalAlignment: 2
-  m_VerticalAlignment: 256
-  m_textAlignment: 65535
-  m_characterSpacing: 0
-  m_characterHorizontalScale: 1
-  m_wordSpacing: 0
-  m_lineSpacing: 0
-  m_lineSpacingMax: 0
-  m_paragraphSpacing: 0
-  m_charWidthMaxAdj: 0
-  m_TextWrappingMode: 1
-  m_wordWrappingRatios: 0.4
-  m_overflowMode: 0
-  m_linkedTextComponent: {fileID: 0}
-  parentLinkedComponent: {fileID: 0}
-  m_enableKerning: 0
-  m_ActiveFontFeatures: 6e72656b
-  m_enableExtraPadding: 0
-  checkPaddingRequired: 0
-  m_isRichText: 1
-  m_EmojiFallbackSupport: 1
-  m_parseCtrlCharacters: 1
-  m_isOrthographic: 1
-  m_isCullingEnabled: 0
-  m_horizontalMapping: 0
-  m_verticalMapping: 0
-  m_uvLineOffset: 0
-  m_geometrySortingOrder: 0
-  m_IsTextObjectScaleStatic: 0
-  m_VertexBufferAutoSizeReduction: 0
-  m_useMaxVisibleDescender: 1
-  m_pageToDisplay: 1
-  m_margin: {x: 0, y: -2.1982422, z: 0, w: 0}
-  m_isUsingLegacyAnimationComponent: 0
-  m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
-  m_baseMaterial: {fileID: 0}
-  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
---- !u!222 &752547218
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 752547215}
-  m_CullTransparentMesh: 1
 --- !u!1 &768418392
 GameObject:
   m_ObjectHideFlags: 0
@@ -10090,138 +9293,6 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
---- !u!1 &786059164
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 786059165}
-  - component: {fileID: 786059168}
-  - component: {fileID: 786059167}
-  - component: {fileID: 786059166}
-  m_Layer: 5
-  m_Name: volver al inicio
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &786059165
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 786059164}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 2057136761}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -136.52}
-  m_SizeDelta: {x: 144.5437, y: 104.7568}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &786059166
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 786059164}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Button
-  m_Navigation:
-    m_Mode: 3
-    m_WrapAround: 0
-    m_SelectOnUp: {fileID: 0}
-    m_SelectOnDown: {fileID: 0}
-    m_SelectOnLeft: {fileID: 0}
-    m_SelectOnRight: {fileID: 0}
-  m_Transition: 1
-  m_Colors:
-    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
-    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
-    m_ColorMultiplier: 1
-    m_FadeDuration: 0.1
-  m_SpriteState:
-    m_HighlightedSprite: {fileID: 0}
-    m_PressedSprite: {fileID: 0}
-    m_SelectedSprite: {fileID: 0}
-    m_DisabledSprite: {fileID: 0}
-  m_AnimationTriggers:
-    m_NormalTrigger: Normal
-    m_HighlightedTrigger: Highlighted
-    m_PressedTrigger: Pressed
-    m_SelectedTrigger: Selected
-    m_DisabledTrigger: Disabled
-  m_Interactable: 1
-  m_TargetGraphic: {fileID: 786059167}
-  m_OnClick:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1301541775}
-        m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
-        m_MethodName: CargarEscena
-        m_Mode: 3
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
---- !u!114 &786059167
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 786059164}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: -6362827190109585011, guid: 734990bd11c81e14c8be2fdf62f917cd, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &786059168
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 786059164}
-  m_CullTransparentMesh: 1
 --- !u!1 &788759122
 GameObject:
   m_ObjectHideFlags: 0
@@ -10318,6 +9389,7 @@ Transform:
   - {fileID: 377514080}
   - {fileID: 175337059}
   - {fileID: 1899916000}
+  - {fileID: 991693910}
   - {fileID: 1558762540}
   - {fileID: 381366185}
   - {fileID: 1765166680}
@@ -10330,10 +9402,10 @@ Transform:
   - {fileID: 1837613368}
   - {fileID: 1138568259}
   - {fileID: 1157510289}
-  - {fileID: 991693910}
   - {fileID: 1156503546}
   - {fileID: 703959308}
   - {fileID: 1938921181}
+  - {fileID: 810225799}
   - {fileID: 146293548}
   - {fileID: 807931347}
   - {fileID: 551031512}
@@ -10349,6 +9421,8 @@ Transform:
   - {fileID: 46801775}
   - {fileID: 315138632}
   - {fileID: 626152552}
+  - {fileID: 1215004811}
+  - {fileID: 1781688109}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &807931346
@@ -10363,7 +9437,6 @@ GameObject:
   - component: {fileID: 807931350}
   - component: {fileID: 807931349}
   - component: {fileID: 807931348}
-  - component: {fileID: 807931351}
   m_Layer: 0
   m_Name: Cactus mortal (11)
   m_TagString: Untagged
@@ -10380,7 +9453,7 @@ Transform:
   m_GameObject: {fileID: 807931346}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 7.560001, y: -5.32, z: 0}
+  m_LocalPosition: {x: 7.6, y: -5.32, z: 0}
   m_LocalScale: {x: 0.9546, y: 0.8773, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -10444,8 +9517,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f5dde8d2fd8e6d240bdd688706dc09a7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TrampaMortal
-  _playerStats: {fileID: 1718106537}
-  _uIManager: {fileID: 516735632}
 --- !u!212 &807931350
 SpriteRenderer:
   serializedVersion: 2
@@ -10505,20 +9576,6 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
---- !u!114 &807931351
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 807931346}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f5dde8d2fd8e6d240bdd688706dc09a7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::TrampaMortal
-  _playerStats: {fileID: 0}
-  _uIManager: {fileID: 0}
 --- !u!1 &810225798
 GameObject:
   m_ObjectHideFlags: 0
@@ -10530,7 +9587,7 @@ GameObject:
   - component: {fileID: 810225799}
   - component: {fileID: 810225802}
   - component: {fileID: 810225801}
-  - component: {fileID: 810225803}
+  - component: {fileID: 810225800}
   m_Layer: 0
   m_Name: Cactus mortal (3)
   m_TagString: Untagged
@@ -10547,12 +9604,24 @@ Transform:
   m_GameObject: {fileID: 810225798}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -130.60965, y: 1.46994, z: 0}
-  m_LocalScale: {x: 1.1417925, y: 1.3473328, z: 1}
+  m_LocalPosition: {x: 23.61, y: -3.719, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1156503546}
+  m_Father: {fileID: 788759123}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &810225800
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 810225798}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f5dde8d2fd8e6d240bdd688706dc09a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TrampaMortal
 --- !u!61 &810225801
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -10658,20 +9727,6 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
---- !u!114 &810225803
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 810225798}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f5dde8d2fd8e6d240bdd688706dc09a7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::TrampaMortal
-  _playerStats: {fileID: 1718106537}
-  _uIManager: {fileID: 516735632}
 --- !u!1 &816559386
 GameObject:
   m_ObjectHideFlags: 0
@@ -10775,7 +9830,6 @@ GameObject:
   - component: {fileID: 816587891}
   - component: {fileID: 816587890}
   - component: {fileID: 816587889}
-  - component: {fileID: 816587892}
   m_Layer: 0
   m_Name: Cactus mortal (9)
   m_TagString: Untagged
@@ -10792,7 +9846,7 @@ Transform:
   m_GameObject: {fileID: 816587887}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 5.390001, y: -5.31, z: 0}
+  m_LocalPosition: {x: 5.43, y: -5.31, z: 0}
   m_LocalScale: {x: 0.8766, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -10856,8 +9910,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f5dde8d2fd8e6d240bdd688706dc09a7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TrampaMortal
-  _playerStats: {fileID: 1718106537}
-  _uIManager: {fileID: 516735632}
 --- !u!212 &816587891
 SpriteRenderer:
   serializedVersion: 2
@@ -10917,20 +9969,6 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
---- !u!114 &816587892
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 816587887}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f5dde8d2fd8e6d240bdd688706dc09a7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::TrampaMortal
-  _playerStats: {fileID: 1718106537}
-  _uIManager: {fileID: 516735632}
 --- !u!1 &821948596
 GameObject:
   m_ObjectHideFlags: 0
@@ -10943,7 +9981,6 @@ GameObject:
   - component: {fileID: 821948600}
   - component: {fileID: 821948599}
   - component: {fileID: 821948598}
-  - component: {fileID: 821948601}
   m_Layer: 0
   m_Name: Cactus mortal (10)
   m_TagString: Untagged
@@ -10960,7 +9997,7 @@ Transform:
   m_GameObject: {fileID: 821948596}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 6.570001, y: -5.3, z: 0}
+  m_LocalPosition: {x: 6.61, y: -5.3, z: 0}
   m_LocalScale: {x: 0.7747, y: 0.946, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -11024,8 +10061,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f5dde8d2fd8e6d240bdd688706dc09a7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TrampaMortal
-  _playerStats: {fileID: 1718106537}
-  _uIManager: {fileID: 516735632}
 --- !u!212 &821948600
 SpriteRenderer:
   serializedVersion: 2
@@ -11085,20 +10120,6 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
---- !u!114 &821948601
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 821948596}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f5dde8d2fd8e6d240bdd688706dc09a7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::TrampaMortal
-  _playerStats: {fileID: 1718106537}
-  _uIManager: {fileID: 516735632}
 --- !u!1 &827215465
 GameObject:
   m_ObjectHideFlags: 0
@@ -11237,347 +10258,6 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
---- !u!1001 &845963483
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 1670786468}
-    m_Modifications:
-    - target: {fileID: 125921052947469247, guid: 04e6bc9ebb3f8a541bc54ee0ae34a2e6, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 125921052947469247, guid: 04e6bc9ebb3f8a541bc54ee0ae34a2e6, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
-      value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: 125921052947469247, guid: 04e6bc9ebb3f8a541bc54ee0ae34a2e6, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 716888708}
-    - target: {fileID: 125921052947469247, guid: 04e6bc9ebb3f8a541bc54ee0ae34a2e6, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 125921052947469247, guid: 04e6bc9ebb3f8a541bc54ee0ae34a2e6, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: SetActive
-      objectReference: {fileID: 0}
-    - target: {fileID: 125921052947469247, guid: 04e6bc9ebb3f8a541bc54ee0ae34a2e6, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: UnityEngine.GameObject, UnityEngine
-      objectReference: {fileID: 0}
-    - target: {fileID: 125921052947469247, guid: 04e6bc9ebb3f8a541bc54ee0ae34a2e6, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: UnityEngine.Object, UnityEngine
-      objectReference: {fileID: 0}
-    - target: {fileID: 553071726545031751, guid: 04e6bc9ebb3f8a541bc54ee0ae34a2e6, type: 3}
-      propertyPath: m_SizeDelta.x
-      value: 384.4299
-      objectReference: {fileID: 0}
-    - target: {fileID: 553071726545031751, guid: 04e6bc9ebb3f8a541bc54ee0ae34a2e6, type: 3}
-      propertyPath: m_SizeDelta.y
-      value: 30.9155
-      objectReference: {fileID: 0}
-    - target: {fileID: 553071726545031751, guid: 04e6bc9ebb3f8a541bc54ee0ae34a2e6, type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: -8
-      objectReference: {fileID: 0}
-    - target: {fileID: 553071726545031751, guid: 04e6bc9ebb3f8a541bc54ee0ae34a2e6, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: -14
-      objectReference: {fileID: 0}
-    - target: {fileID: 1255897892656857411, guid: 04e6bc9ebb3f8a541bc54ee0ae34a2e6, type: 3}
-      propertyPath: m_SizeDelta.x
-      value: 30.7879
-      objectReference: {fileID: 0}
-    - target: {fileID: 1255897892656857411, guid: 04e6bc9ebb3f8a541bc54ee0ae34a2e6, type: 3}
-      propertyPath: m_SizeDelta.y
-      value: 33.9292
-      objectReference: {fileID: 0}
-    - target: {fileID: 1255897892656857411, guid: 04e6bc9ebb3f8a541bc54ee0ae34a2e6, type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 36
-      objectReference: {fileID: 0}
-    - target: {fileID: 1255897892656857411, guid: 04e6bc9ebb3f8a541bc54ee0ae34a2e6, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: -74.047
-      objectReference: {fileID: 0}
-    - target: {fileID: 2025677597683770902, guid: 04e6bc9ebb3f8a541bc54ee0ae34a2e6, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 2025677597683770902, guid: 04e6bc9ebb3f8a541bc54ee0ae34a2e6, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2025677597683770902, guid: 04e6bc9ebb3f8a541bc54ee0ae34a2e6, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
-      value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: 2025677597683770902, guid: 04e6bc9ebb3f8a541bc54ee0ae34a2e6, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 1301541775}
-    - target: {fileID: 2025677597683770902, guid: 04e6bc9ebb3f8a541bc54ee0ae34a2e6, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 716888708}
-    - target: {fileID: 2025677597683770902, guid: 04e6bc9ebb3f8a541bc54ee0ae34a2e6, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 2025677597683770902, guid: 04e6bc9ebb3f8a541bc54ee0ae34a2e6, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: RenundarElJuego
-      objectReference: {fileID: 0}
-    - target: {fileID: 2025677597683770902, guid: 04e6bc9ebb3f8a541bc54ee0ae34a2e6, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: SetActive
-      objectReference: {fileID: 0}
-    - target: {fileID: 2025677597683770902, guid: 04e6bc9ebb3f8a541bc54ee0ae34a2e6, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: GameManager, Assembly-CSharp
-      objectReference: {fileID: 0}
-    - target: {fileID: 2025677597683770902, guid: 04e6bc9ebb3f8a541bc54ee0ae34a2e6, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
-      value: UnityEngine.GameObject, UnityEngine
-      objectReference: {fileID: 0}
-    - target: {fileID: 2025677597683770902, guid: 04e6bc9ebb3f8a541bc54ee0ae34a2e6, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_BoolArgument
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2025677597683770902, guid: 04e6bc9ebb3f8a541bc54ee0ae34a2e6, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: UnityEngine.Object, UnityEngine
-      objectReference: {fileID: 0}
-    - target: {fileID: 3725577593879494158, guid: 04e6bc9ebb3f8a541bc54ee0ae34a2e6, type: 3}
-      propertyPath: m_SizeDelta.x
-      value: 46.7166
-      objectReference: {fileID: 0}
-    - target: {fileID: 3725577593879494158, guid: 04e6bc9ebb3f8a541bc54ee0ae34a2e6, type: 3}
-      propertyPath: m_SizeDelta.y
-      value: 49.7647
-      objectReference: {fileID: 0}
-    - target: {fileID: 3725577593879494158, guid: 04e6bc9ebb3f8a541bc54ee0ae34a2e6, type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 155
-      objectReference: {fileID: 0}
-    - target: {fileID: 3725577593879494158, guid: 04e6bc9ebb3f8a541bc54ee0ae34a2e6, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 51
-      objectReference: {fileID: 0}
-    - target: {fileID: 3965111174631875585, guid: 04e6bc9ebb3f8a541bc54ee0ae34a2e6, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3965111174631875585, guid: 04e6bc9ebb3f8a541bc54ee0ae34a2e6, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 3965111174631875585, guid: 04e6bc9ebb3f8a541bc54ee0ae34a2e6, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 1301541775}
-    - target: {fileID: 3965111174631875585, guid: 04e6bc9ebb3f8a541bc54ee0ae34a2e6, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 3965111174631875585, guid: 04e6bc9ebb3f8a541bc54ee0ae34a2e6, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: CargarEscena
-      objectReference: {fileID: 0}
-    - target: {fileID: 3965111174631875585, guid: 04e6bc9ebb3f8a541bc54ee0ae34a2e6, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: GameManager, Assembly-CSharp
-      objectReference: {fileID: 0}
-    - target: {fileID: 3965111174631875585, guid: 04e6bc9ebb3f8a541bc54ee0ae34a2e6, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3965111174631875585, guid: 04e6bc9ebb3f8a541bc54ee0ae34a2e6, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: UnityEngine.Object, UnityEngine
-      objectReference: {fileID: 0}
-    - target: {fileID: 4122553885079602545, guid: 04e6bc9ebb3f8a541bc54ee0ae34a2e6, type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 7791214535279931073, guid: e4b5d458e41e06c4687f933b1bde67a8, type: 3}
-    - target: {fileID: 4306047244848508575, guid: 04e6bc9ebb3f8a541bc54ee0ae34a2e6, type: 3}
-      propertyPath: m_SizeDelta.x
-      value: 42.784
-      objectReference: {fileID: 0}
-    - target: {fileID: 4306047244848508575, guid: 04e6bc9ebb3f8a541bc54ee0ae34a2e6, type: 3}
-      propertyPath: m_SizeDelta.y
-      value: 44.5583
-      objectReference: {fileID: 0}
-    - target: {fileID: 4306047244848508575, guid: 04e6bc9ebb3f8a541bc54ee0ae34a2e6, type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 36
-      objectReference: {fileID: 0}
-    - target: {fileID: 4306047244848508575, guid: 04e6bc9ebb3f8a541bc54ee0ae34a2e6, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: -131.98
-      objectReference: {fileID: 0}
-    - target: {fileID: 5842060743640929294, guid: 04e6bc9ebb3f8a541bc54ee0ae34a2e6, type: 3}
-      propertyPath: m_SizeDelta.x
-      value: 35.01
-      objectReference: {fileID: 0}
-    - target: {fileID: 5842060743640929294, guid: 04e6bc9ebb3f8a541bc54ee0ae34a2e6, type: 3}
-      propertyPath: m_SizeDelta.y
-      value: 31.8174
-      objectReference: {fileID: 0}
-    - target: {fileID: 5842060743640929294, guid: 04e6bc9ebb3f8a541bc54ee0ae34a2e6, type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: -64.1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5842060743640929294, guid: 04e6bc9ebb3f8a541bc54ee0ae34a2e6, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: -72.991
-      objectReference: {fileID: 0}
-    - target: {fileID: 6090147815987678205, guid: 04e6bc9ebb3f8a541bc54ee0ae34a2e6, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6090147815987678205, guid: 04e6bc9ebb3f8a541bc54ee0ae34a2e6, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 6090147815987678205, guid: 04e6bc9ebb3f8a541bc54ee0ae34a2e6, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 1301541775}
-    - target: {fileID: 6090147815987678205, guid: 04e6bc9ebb3f8a541bc54ee0ae34a2e6, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 6090147815987678205, guid: 04e6bc9ebb3f8a541bc54ee0ae34a2e6, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: CargarEscena
-      objectReference: {fileID: 0}
-    - target: {fileID: 6090147815987678205, guid: 04e6bc9ebb3f8a541bc54ee0ae34a2e6, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: GameManager, Assembly-CSharp
-      objectReference: {fileID: 0}
-    - target: {fileID: 6090147815987678205, guid: 04e6bc9ebb3f8a541bc54ee0ae34a2e6, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: UnityEngine.Object, UnityEngine
-      objectReference: {fileID: 0}
-    - target: {fileID: 6704824754143363246, guid: 04e6bc9ebb3f8a541bc54ee0ae34a2e6, type: 3}
-      propertyPath: m_Name
-      value: panel fondo menu
-      objectReference: {fileID: 0}
-    - target: {fileID: 6704824754143363246, guid: 04e6bc9ebb3f8a541bc54ee0ae34a2e6, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6911195138191690636, guid: 04e6bc9ebb3f8a541bc54ee0ae34a2e6, type: 3}
-      propertyPath: m_margin.y
-      value: -6.1657104
-      objectReference: {fileID: 0}
-    - target: {fileID: 7234713021520064876, guid: 04e6bc9ebb3f8a541bc54ee0ae34a2e6, type: 3}
-      propertyPath: m_Pivot.x
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 7234713021520064876, guid: 04e6bc9ebb3f8a541bc54ee0ae34a2e6, type: 3}
-      propertyPath: m_Pivot.y
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 7234713021520064876, guid: 04e6bc9ebb3f8a541bc54ee0ae34a2e6, type: 3}
-      propertyPath: m_AnchorMax.x
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7234713021520064876, guid: 04e6bc9ebb3f8a541bc54ee0ae34a2e6, type: 3}
-      propertyPath: m_AnchorMax.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7234713021520064876, guid: 04e6bc9ebb3f8a541bc54ee0ae34a2e6, type: 3}
-      propertyPath: m_AnchorMin.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7234713021520064876, guid: 04e6bc9ebb3f8a541bc54ee0ae34a2e6, type: 3}
-      propertyPath: m_AnchorMin.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7234713021520064876, guid: 04e6bc9ebb3f8a541bc54ee0ae34a2e6, type: 3}
-      propertyPath: m_SizeDelta.x
-      value: -1000
-      objectReference: {fileID: 0}
-    - target: {fileID: 7234713021520064876, guid: 04e6bc9ebb3f8a541bc54ee0ae34a2e6, type: 3}
-      propertyPath: m_SizeDelta.y
-      value: -200
-      objectReference: {fileID: 0}
-    - target: {fileID: 7234713021520064876, guid: 04e6bc9ebb3f8a541bc54ee0ae34a2e6, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7234713021520064876, guid: 04e6bc9ebb3f8a541bc54ee0ae34a2e6, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7234713021520064876, guid: 04e6bc9ebb3f8a541bc54ee0ae34a2e6, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7234713021520064876, guid: 04e6bc9ebb3f8a541bc54ee0ae34a2e6, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7234713021520064876, guid: 04e6bc9ebb3f8a541bc54ee0ae34a2e6, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7234713021520064876, guid: 04e6bc9ebb3f8a541bc54ee0ae34a2e6, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7234713021520064876, guid: 04e6bc9ebb3f8a541bc54ee0ae34a2e6, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7234713021520064876, guid: 04e6bc9ebb3f8a541bc54ee0ae34a2e6, type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7234713021520064876, guid: 04e6bc9ebb3f8a541bc54ee0ae34a2e6, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7234713021520064876, guid: 04e6bc9ebb3f8a541bc54ee0ae34a2e6, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7234713021520064876, guid: 04e6bc9ebb3f8a541bc54ee0ae34a2e6, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7234713021520064876, guid: 04e6bc9ebb3f8a541bc54ee0ae34a2e6, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7759879138831732894, guid: 04e6bc9ebb3f8a541bc54ee0ae34a2e6, type: 3}
-      propertyPath: m_SizeDelta.x
-      value: 43.8243
-      objectReference: {fileID: 0}
-    - target: {fileID: 7759879138831732894, guid: 04e6bc9ebb3f8a541bc54ee0ae34a2e6, type: 3}
-      propertyPath: m_SizeDelta.y
-      value: 40.5425
-      objectReference: {fileID: 0}
-    - target: {fileID: 7759879138831732894, guid: 04e6bc9ebb3f8a541bc54ee0ae34a2e6, type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: -64.1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7759879138831732894, guid: 04e6bc9ebb3f8a541bc54ee0ae34a2e6, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: -133.99
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 04e6bc9ebb3f8a541bc54ee0ae34a2e6, type: 3}
 --- !u!1 &857521926
 GameObject:
   m_ObjectHideFlags: 0
@@ -12094,7 +10774,7 @@ GameObject:
   - component: {fileID: 972701081}
   - component: {fileID: 972701084}
   - component: {fileID: 972701083}
-  - component: {fileID: 972701085}
+  - component: {fileID: 972701082}
   m_Layer: 0
   m_Name: Cactus mortal (18)
   m_TagString: Untagged
@@ -12117,6 +10797,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 788759123}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &972701082
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 972701080}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f5dde8d2fd8e6d240bdd688706dc09a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TrampaMortal
 --- !u!61 &972701083
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -12222,20 +10914,6 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
---- !u!114 &972701085
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 972701080}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f5dde8d2fd8e6d240bdd688706dc09a7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::TrampaMortal
-  _playerStats: {fileID: 1718106537}
-  _uIManager: {fileID: 516735632}
 --- !u!1 &972941728
 GameObject:
   m_ObjectHideFlags: 0
@@ -12428,8 +11106,8 @@ GameObject:
   m_Component:
   - component: {fileID: 991693910}
   - component: {fileID: 991693913}
+  - component: {fileID: 991693912}
   - component: {fileID: 991693911}
-  - component: {fileID: 991693914}
   m_Layer: 0
   m_Name: Cactus mortal (39)
   m_TagString: Untagged
@@ -12498,6 +11176,18 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1.75, y: 1.25}
   m_EdgeRadius: 0
+--- !u!114 &991693912
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 991693909}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f5dde8d2fd8e6d240bdd688706dc09a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TrampaMortal
 --- !u!212 &991693913
 SpriteRenderer:
   serializedVersion: 2
@@ -12557,20 +11247,6 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
---- !u!114 &991693914
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 991693909}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f5dde8d2fd8e6d240bdd688706dc09a7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::TrampaMortal
-  _playerStats: {fileID: 1718106537}
-  _uIManager: {fileID: 516735632}
 --- !u!1 &1021147467
 GameObject:
   m_ObjectHideFlags: 0
@@ -12891,81 +11567,6 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
---- !u!1 &1029613029
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1029613030}
-  - component: {fileID: 1029613032}
-  - component: {fileID: 1029613031}
-  m_Layer: 5
-  m_Name: 'fondo '
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1029613030
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1029613029}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1670786468}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -255, y: 131.32}
-  m_SizeDelta: {x: 223.0209, y: 59.2514}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1029613031
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1029613029}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: -5130558894233647175, guid: 19a598253e915454abf04dd7e564dd13, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &1029613032
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1029613029}
-  m_CullTransparentMesh: 1
 --- !u!1 &1030204443
 GameObject:
   m_ObjectHideFlags: 0
@@ -12978,7 +11579,6 @@ GameObject:
   - component: {fileID: 1030204447}
   - component: {fileID: 1030204446}
   - component: {fileID: 1030204445}
-  - component: {fileID: 1030204448}
   m_Layer: 0
   m_Name: Cactus mortal (22)
   m_TagString: Untagged
@@ -12995,7 +11595,7 @@ Transform:
   m_GameObject: {fileID: 1030204443}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 17.18, y: -5.31, z: 0}
+  m_LocalPosition: {x: 17.22, y: -5.31, z: 0}
   m_LocalScale: {x: 0.8766, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -13059,8 +11659,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f5dde8d2fd8e6d240bdd688706dc09a7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TrampaMortal
-  _playerStats: {fileID: 1718106537}
-  _uIManager: {fileID: 516735632}
 --- !u!212 &1030204447
 SpriteRenderer:
   serializedVersion: 2
@@ -13120,20 +11718,6 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
---- !u!114 &1030204448
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1030204443}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f5dde8d2fd8e6d240bdd688706dc09a7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::TrampaMortal
-  _playerStats: {fileID: 1718106537}
-  _uIManager: {fileID: 516735632}
 --- !u!1 &1056735742
 GameObject:
   m_ObjectHideFlags: 0
@@ -13146,7 +11730,6 @@ GameObject:
   - component: {fileID: 1056735746}
   - component: {fileID: 1056735745}
   - component: {fileID: 1056735744}
-  - component: {fileID: 1056735747}
   m_Layer: 0
   m_Name: Cactus mortal (8)
   m_TagString: Untagged
@@ -13163,7 +11746,7 @@ Transform:
   m_GameObject: {fileID: 1056735742}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 3.6900003, y: -5.3, z: 0}
+  m_LocalPosition: {x: 3.66, y: -5.3, z: 0}
   m_LocalScale: {x: 0.8766, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -13227,8 +11810,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f5dde8d2fd8e6d240bdd688706dc09a7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TrampaMortal
-  _playerStats: {fileID: 1718106537}
-  _uIManager: {fileID: 516735632}
 --- !u!212 &1056735746
 SpriteRenderer:
   serializedVersion: 2
@@ -13288,20 +11869,6 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
---- !u!114 &1056735747
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1056735742}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f5dde8d2fd8e6d240bdd688706dc09a7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::TrampaMortal
-  _playerStats: {fileID: 1718106537}
-  _uIManager: {fileID: 516735632}
 --- !u!1 &1059842649
 GameObject:
   m_ObjectHideFlags: 0
@@ -13541,8 +12108,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1078670323}
   - component: {fileID: 1078670326}
+  - component: {fileID: 1078670325}
   - component: {fileID: 1078670324}
-  - component: {fileID: 1078670327}
   m_Layer: 0
   m_Name: Cactus mortal (16)
   m_TagString: Untagged
@@ -13611,6 +12178,18 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1.75, y: 1.25}
   m_EdgeRadius: 0
+--- !u!114 &1078670325
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1078670322}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f5dde8d2fd8e6d240bdd688706dc09a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TrampaMortal
 --- !u!212 &1078670326
 SpriteRenderer:
   serializedVersion: 2
@@ -13670,20 +12249,6 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
---- !u!114 &1078670327
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1078670322}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f5dde8d2fd8e6d240bdd688706dc09a7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::TrampaMortal
-  _playerStats: {fileID: 1718106537}
-  _uIManager: {fileID: 516735632}
 --- !u!1 &1095431677
 GameObject:
   m_ObjectHideFlags: 0
@@ -13822,10 +12387,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1095431677}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 056815fc9bfd92f43b9c422db75a0bf1, type: 3}
+  m_Script: {fileID: 11500000, guid: fda57ba28132a7741994505b77ad13ca, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::DetectorSuelo
-  estaEnSuelo: 0
+  m_EditorClassIdentifier: Assembly-CSharp::GroundCheck
+  isGround: 1
 --- !u!1 &1100245427
 GameObject:
   m_ObjectHideFlags: 0
@@ -13964,150 +12529,6 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
---- !u!1 &1102123056
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1102123057}
-  - component: {fileID: 1102123059}
-  - component: {fileID: 1102123058}
-  - component: {fileID: 1102123060}
-  m_Layer: 0
-  m_Name: nube de vida 4
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1102123057
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1102123056}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 4.76, y: 1.84, z: 0}
-  m_LocalScale: {x: 0.6293063, y: 0.54329926, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1197361150}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1102123058
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1102123056}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 891251c5c2be441489798c38d59a292f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Heal
-  _playerStats: {fileID: 1718106537}
-  _uiManger: {fileID: 0}
---- !u!212 &1102123059
-SpriteRenderer:
-  serializedVersion: 2
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1102123056}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 0
-  m_RayTraceProcedural: 0
-  m_RayTracingAccelStructBuildFlagsOverride: 0
-  m_RayTracingAccelStructBuildFlags: 1
-  m_SmallMeshCulling: 1
-  m_ForceMeshLod: -1
-  m_MeshLodSelectionBias: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_GlobalIlluminationMeshLod: 0
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_MaskInteraction: 0
-  m_Sprite: {fileID: 21300000, guid: bd79f3830e84cf543972a859dc0807e8, type: 3}
-  m_Color: {r: 1, g: 0.6462264, b: 0.9037534, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 1.25, y: 0.6875}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_SpriteSortPoint: 0
---- !u!70 &1102123060
-CapsuleCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1102123056}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_ForceSendLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ForceReceiveLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ContactCaptureLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_CallbackLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_CompositeOperation: 0
-  m_CompositeOrder: 0
-  m_Offset: {x: -0.0000019073486, y: 0.34375}
-  m_Size: {x: 1.2500001, y: 0.6875}
-  m_Direction: 0
 --- !u!1 &1105961099
 GameObject:
   m_ObjectHideFlags: 0
@@ -14119,7 +12540,7 @@ GameObject:
   - component: {fileID: 1105961100}
   - component: {fileID: 1105961103}
   - component: {fileID: 1105961102}
-  - component: {fileID: 1105961104}
+  - component: {fileID: 1105961101}
   m_Layer: 0
   m_Name: Cactus mortal (29)
   m_TagString: Untagged
@@ -14142,6 +12563,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 788759123}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1105961101
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1105961099}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f5dde8d2fd8e6d240bdd688706dc09a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TrampaMortal
 --- !u!61 &1105961102
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -14247,20 +12680,6 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
---- !u!114 &1105961104
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1105961099}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f5dde8d2fd8e6d240bdd688706dc09a7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::TrampaMortal
-  _playerStats: {fileID: 1718106537}
-  _uIManager: {fileID: 516735632}
 --- !u!1 &1126184719
 GameObject:
   m_ObjectHideFlags: 0
@@ -14638,8 +13057,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1138363855}
   - component: {fileID: 1138363858}
+  - component: {fileID: 1138363857}
   - component: {fileID: 1138363856}
-  - component: {fileID: 1138363859}
   m_Layer: 0
   m_Name: Cactus mortal (26)
   m_TagString: Untagged
@@ -14708,6 +13127,18 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1.75, y: 1.25}
   m_EdgeRadius: 0
+--- !u!114 &1138363857
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1138363854}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f5dde8d2fd8e6d240bdd688706dc09a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TrampaMortal
 --- !u!212 &1138363858
 SpriteRenderer:
   serializedVersion: 2
@@ -14767,20 +13198,6 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
---- !u!114 &1138363859
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1138363854}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f5dde8d2fd8e6d240bdd688706dc09a7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::TrampaMortal
-  _playerStats: {fileID: 1718106537}
-  _uIManager: {fileID: 516735632}
 --- !u!1 &1138568258
 GameObject:
   m_ObjectHideFlags: 0
@@ -14792,7 +13209,7 @@ GameObject:
   - component: {fileID: 1138568259}
   - component: {fileID: 1138568262}
   - component: {fileID: 1138568261}
-  - component: {fileID: 1138568263}
+  - component: {fileID: 1138568260}
   m_Layer: 0
   m_Name: Cactus mortal (38)
   m_TagString: Untagged
@@ -14815,6 +13232,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 788759123}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1138568260
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1138568258}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f5dde8d2fd8e6d240bdd688706dc09a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TrampaMortal
 --- !u!61 &1138568261
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -14920,20 +13349,6 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
---- !u!114 &1138568263
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1138568258}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f5dde8d2fd8e6d240bdd688706dc09a7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::TrampaMortal
-  _playerStats: {fileID: 1718106537}
-  _uIManager: {fileID: 516735632}
 --- !u!1 &1139499121
 GameObject:
   m_ObjectHideFlags: 0
@@ -15036,7 +13451,7 @@ GameObject:
   - component: {fileID: 1156503546}
   - component: {fileID: 1156503549}
   - component: {fileID: 1156503548}
-  - component: {fileID: 1156503550}
+  - component: {fileID: 1156503547}
   m_Layer: 0
   m_Name: Cactus mortal (41)
   m_TagString: Untagged
@@ -15056,10 +13471,21 @@ Transform:
   m_LocalPosition: {x: 138, y: -4.81, z: 0}
   m_LocalScale: {x: 0.8758158, y: 0.7422071, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 810225799}
+  m_Children: []
   m_Father: {fileID: 788759123}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1156503547
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1156503545}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f5dde8d2fd8e6d240bdd688706dc09a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TrampaMortal
 --- !u!61 &1156503548
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -15165,20 +13591,6 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
---- !u!114 &1156503550
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1156503545}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f5dde8d2fd8e6d240bdd688706dc09a7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::TrampaMortal
-  _playerStats: {fileID: 1718106537}
-  _uIManager: {fileID: 516735632}
 --- !u!1 &1157510288
 GameObject:
   m_ObjectHideFlags: 0
@@ -15190,7 +13602,7 @@ GameObject:
   - component: {fileID: 1157510289}
   - component: {fileID: 1157510292}
   - component: {fileID: 1157510291}
-  - component: {fileID: 1157510293}
+  - component: {fileID: 1157510290}
   m_Layer: 0
   m_Name: Cactus mortal (42)
   m_TagString: Untagged
@@ -15213,6 +13625,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 788759123}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1157510290
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1157510288}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f5dde8d2fd8e6d240bdd688706dc09a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TrampaMortal
 --- !u!61 &1157510291
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -15318,20 +13742,6 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
---- !u!114 &1157510293
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1157510288}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f5dde8d2fd8e6d240bdd688706dc09a7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::TrampaMortal
-  _playerStats: {fileID: 1718106537}
-  _uIManager: {fileID: 516735632}
 --- !u!1 &1165192091
 GameObject:
   m_ObjectHideFlags: 0
@@ -15722,7 +14132,7 @@ Transform:
   m_GameObject: {fileID: 1186715234}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 110.85, y: -0.07, z: 0}
+  m_LocalPosition: {x: 110.948074, y: -0.051100254, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -15992,8 +14402,6 @@ Transform:
   m_Children:
   - {fileID: 1666934474}
   - {fileID: 2041394004}
-  - {fileID: 1915468922}
-  - {fileID: 1102123057}
   - {fileID: 2083033101}
   - {fileID: 1746460201}
   - {fileID: 502554802}
@@ -16313,12 +14721,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1215004809}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 147.69, y: 2.57, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 156.60912, y: -3.73121, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 788759123}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1221451241
 GameObject:
@@ -16960,50 +15368,6 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
---- !u!1 &1301541774
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1301541776}
-  - component: {fileID: 1301541775}
-  m_Layer: 0
-  m_Name: GAME MANAGER
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1301541775
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1301541774}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 96a9384cc499e1246920538fa44ab3bf, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::GameManager
---- !u!4 &1301541776
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1301541774}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1580.2463, y: 933.50726, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1316790751
 GameObject:
   m_ObjectHideFlags: 0
@@ -17233,6 +15597,37 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!1 &1326590576
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1326590577}
+  m_Layer: 0
+  m_Name: GameObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1326590577
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1326590576}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.2095, y: 4.44372, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1352153879
 GameObject:
   m_ObjectHideFlags: 0
@@ -17462,6 +15857,109 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!1 &1363786081
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1363786085}
+  - component: {fileID: 1363786084}
+  - component: {fileID: 1363786083}
+  - component: {fileID: 1363786082}
+  m_Layer: 5
+  m_Name: Canvas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1363786082
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1363786081}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.GraphicRaycaster
+  m_IgnoreReversedGraphics: 1
+  m_BlockingObjects: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+--- !u!114 &1363786083
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1363786081}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.CanvasScaler
+  m_UiScaleMode: 0
+  m_ReferencePixelsPerUnit: 100
+  m_ScaleFactor: 1
+  m_ReferenceResolution: {x: 800, y: 600}
+  m_ScreenMatchMode: 0
+  m_MatchWidthOrHeight: 0
+  m_PhysicalUnit: 3
+  m_FallbackScreenDPI: 96
+  m_DefaultSpriteDPI: 96
+  m_DynamicPixelsPerUnit: 1
+  m_PresetInfoIsWorld: 0
+--- !u!223 &1363786084
+Canvas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1363786081}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_RenderMode: 0
+  m_Camera: {fileID: 0}
+  m_PlaneDistance: 100
+  m_PixelPerfect: 0
+  m_ReceivesEvents: 1
+  m_OverrideSorting: 0
+  m_OverridePixelPerfect: 0
+  m_SortingBucketNormalizedSize: 0
+  m_VertexColorAlwaysGammaSpace: 0
+  m_AdditionalShaderChannelsFlag: 25
+  m_UpdateRectTransformForStandalone: 0
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  m_TargetDisplay: 0
+--- !u!224 &1363786085
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1363786081}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 2021881901}
+  - {fileID: 2005641469}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0, y: 0}
 --- !u!1 &1366444031
 GameObject:
   m_ObjectHideFlags: 0
@@ -18432,8 +16930,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1493816137}
   - component: {fileID: 1493816140}
+  - component: {fileID: 1493816139}
   - component: {fileID: 1493816138}
-  - component: {fileID: 1493816141}
   m_Layer: 0
   m_Name: Cactus mortal (31)
   m_TagString: Untagged
@@ -18502,6 +17000,18 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1.75, y: 1.25}
   m_EdgeRadius: 0
+--- !u!114 &1493816139
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1493816136}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f5dde8d2fd8e6d240bdd688706dc09a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TrampaMortal
 --- !u!212 &1493816140
 SpriteRenderer:
   serializedVersion: 2
@@ -18561,20 +17071,6 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
---- !u!114 &1493816141
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1493816136}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f5dde8d2fd8e6d240bdd688706dc09a7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::TrampaMortal
-  _playerStats: {fileID: 1718106537}
-  _uIManager: {fileID: 516735632}
 --- !u!1 &1498505499
 GameObject:
   m_ObjectHideFlags: 0
@@ -19040,8 +17536,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1558762540}
   - component: {fileID: 1558762543}
+  - component: {fileID: 1558762542}
   - component: {fileID: 1558762541}
-  - component: {fileID: 1558762544}
   m_Layer: 0
   m_Name: Cactus mortal (28)
   m_TagString: Untagged
@@ -19110,6 +17606,18 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1.75, y: 1.25}
   m_EdgeRadius: 0
+--- !u!114 &1558762542
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1558762539}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f5dde8d2fd8e6d240bdd688706dc09a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TrampaMortal
 --- !u!212 &1558762543
 SpriteRenderer:
   serializedVersion: 2
@@ -19169,20 +17677,6 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
---- !u!114 &1558762544
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1558762539}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f5dde8d2fd8e6d240bdd688706dc09a7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::TrampaMortal
-  _playerStats: {fileID: 1718106537}
-  _uIManager: {fileID: 516735632}
 --- !u!1 &1565647789
 GameObject:
   m_ObjectHideFlags: 0
@@ -19330,10 +17824,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1565647789}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 15d65f17755b1a848b235e542e9dcc05, type: 3}
+  m_Script: {fileID: 11500000, guid: a109128f6bbda8c459e9ed29dd703094, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::SeguimientoCamara
-  _objetivo: {fileID: 1718106532}
+  m_EditorClassIdentifier: Assembly-CSharp::CameraFollowTarget
+  _target: {fileID: 1718106532}
 --- !u!1 &1613926260
 GameObject:
   m_ObjectHideFlags: 0
@@ -19804,7 +18298,6 @@ GameObject:
   - component: {fileID: 1663196884}
   - component: {fileID: 1663196883}
   - component: {fileID: 1663196882}
-  - component: {fileID: 1663196885}
   m_Layer: 0
   m_Name: Cactus mortal (23)
   m_TagString: Untagged
@@ -19821,7 +18314,7 @@ Transform:
   m_GameObject: {fileID: 1663196880}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 18.31, y: -5.32, z: 0}
+  m_LocalPosition: {x: 18.36, y: -5.32, z: 0}
   m_LocalScale: {x: 0.7747, y: 0.946, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -19885,8 +18378,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f5dde8d2fd8e6d240bdd688706dc09a7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TrampaMortal
-  _playerStats: {fileID: 1718106537}
-  _uIManager: {fileID: 516735632}
 --- !u!212 &1663196884
 SpriteRenderer:
   serializedVersion: 2
@@ -19946,20 +18437,6 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
---- !u!114 &1663196885
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1663196880}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f5dde8d2fd8e6d240bdd688706dc09a7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::TrampaMortal
-  _playerStats: {fileID: 1718106537}
-  _uIManager: {fileID: 516735632}
 --- !u!1 &1666934473
 GameObject:
   m_ObjectHideFlags: 0
@@ -20051,259 +18528,6 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
---- !u!1 &1670786467
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1670786468}
-  - component: {fileID: 1670786471}
-  - component: {fileID: 1670786470}
-  - component: {fileID: 1670786469}
-  m_Layer: 5
-  m_Name: Canvas
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1670786468
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1670786467}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0, y: 0, z: 0}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 716888711}
-  - {fileID: 1029613030}
-  - {fileID: 193366707}
-  - {fileID: 370165054}
-  - {fileID: 752547216}
-  - {fileID: 1679626732}
-  - {fileID: 2057136761}
-  - {fileID: 1782123459}
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
-  m_Pivot: {x: 0, y: 0}
---- !u!114 &1670786469
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1670786467}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.GraphicRaycaster
-  m_IgnoreReversedGraphics: 1
-  m_BlockingObjects: 0
-  m_BlockingMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
---- !u!114 &1670786470
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1670786467}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.CanvasScaler
-  m_UiScaleMode: 0
-  m_ReferencePixelsPerUnit: 100
-  m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
-  m_ScreenMatchMode: 0
-  m_MatchWidthOrHeight: 0
-  m_PhysicalUnit: 3
-  m_FallbackScreenDPI: 96
-  m_DefaultSpriteDPI: 96
-  m_DynamicPixelsPerUnit: 1
-  m_PresetInfoIsWorld: 0
---- !u!223 &1670786471
-Canvas:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1670786467}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_RenderMode: 0
-  m_Camera: {fileID: 0}
-  m_PlaneDistance: 100
-  m_PixelPerfect: 0
-  m_ReceivesEvents: 1
-  m_OverrideSorting: 0
-  m_OverridePixelPerfect: 0
-  m_SortingBucketNormalizedSize: 0
-  m_VertexColorAlwaysGammaSpace: 0
-  m_AdditionalShaderChannelsFlag: 25
-  m_UpdateRectTransformForStandalone: 0
-  m_SortingLayerID: 0
-  m_SortingOrder: 0
-  m_TargetDisplay: 0
---- !u!1 &1679626731
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1679626732}
-  - component: {fileID: 1679626735}
-  - component: {fileID: 1679626734}
-  - component: {fileID: 1679626733}
-  m_Layer: 5
-  m_Name: 'MENU PAUSA '
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1679626732
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1679626731}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1670786468}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 345, y: 125}
-  m_SizeDelta: {x: 92.2958, y: 86.032}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1679626733
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1679626731}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Button
-  m_Navigation:
-    m_Mode: 3
-    m_WrapAround: 0
-    m_SelectOnUp: {fileID: 0}
-    m_SelectOnDown: {fileID: 0}
-    m_SelectOnLeft: {fileID: 0}
-    m_SelectOnRight: {fileID: 0}
-  m_Transition: 1
-  m_Colors:
-    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
-    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
-    m_ColorMultiplier: 1
-    m_FadeDuration: 0.1
-  m_SpriteState:
-    m_HighlightedSprite: {fileID: 0}
-    m_PressedSprite: {fileID: 0}
-    m_SelectedSprite: {fileID: 0}
-    m_DisabledSprite: {fileID: 0}
-  m_AnimationTriggers:
-    m_NormalTrigger: Normal
-    m_HighlightedTrigger: Highlighted
-    m_PressedTrigger: Pressed
-    m_SelectedTrigger: Selected
-    m_DisabledTrigger: Disabled
-  m_Interactable: 1
-  m_TargetGraphic: {fileID: 1679626734}
-  m_OnClick:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 716888708}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
-      - m_Target: {fileID: 1301541775}
-        m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
-        m_MethodName: PausarElJuego
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
---- !u!114 &1679626734
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1679626731}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: -4846803290169054390, guid: 2dafe49e642e3ef4c9f4e46c3f3f5274, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &1679626735
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1679626731}
-  m_CullTransparentMesh: 1
 --- !u!1 &1718106529
 GameObject:
   m_ObjectHideFlags: 0
@@ -20317,8 +18541,7 @@ GameObject:
   - component: {fileID: 1718106530}
   - component: {fileID: 1718106535}
   - component: {fileID: 1718106534}
-  - component: {fileID: 1718106536}
-  - component: {fileID: 1718106537}
+  - component: {fileID: 1718106533}
   m_Layer: 0
   m_Name: Dino Player
   m_TagString: Player
@@ -20416,13 +18639,29 @@ Transform:
   m_GameObject: {fileID: 1718106529}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -34.6, y: 2.7, z: 0}
+  m_LocalPosition: {x: -37.36, y: 2.617, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1095431678}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1718106533
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1718106529}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a7eb503b09a3514488bdc5e2d4169490, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerMovement
+  _jumpforce: 39
+  _movenentspeed: 8
+  _rigibody2D: {fileID: 1718106534}
+  _groundCheck: {fileID: 1095431681}
 --- !u!50 &1718106534
 Rigidbody2D:
   serializedVersion: 5
@@ -20496,39 +18735,6 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
---- !u!114 &1718106536
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1718106529}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 341cd93a6dd41574b90e85b27a8e9595, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::MovimientoJugador
-  _fuerzaSalto: 39
-  _velocidadmovimiento: 7
-  _cuerporigido2D: {fileID: 1718106534}
-  _detectorSuelo: {fileID: 1095431681}
---- !u!114 &1718106537
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1718106529}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6205ff9f629e4dd45981edd645a323bc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::PlayerStats
-  _puntosVidaActuales: 100
-  _puntosVidaMaximo: 100
-  _uiManager: {fileID: 516735632}
-  _panelperdio: 0
-  panelperdio: {fileID: 1782123458}
 --- !u!1 &1740027963
 GameObject:
   m_ObjectHideFlags: 0
@@ -20540,7 +18746,7 @@ GameObject:
   - component: {fileID: 1740027964}
   - component: {fileID: 1740027967}
   - component: {fileID: 1740027966}
-  - component: {fileID: 1740027968}
+  - component: {fileID: 1740027965}
   m_Layer: 0
   m_Name: Cactus mortal (19)
   m_TagString: Untagged
@@ -20563,6 +18769,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 788759123}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1740027965
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1740027963}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f5dde8d2fd8e6d240bdd688706dc09a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TrampaMortal
 --- !u!61 &1740027966
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -20668,20 +18886,6 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
---- !u!114 &1740027968
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1740027963}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f5dde8d2fd8e6d240bdd688706dc09a7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::TrampaMortal
-  _playerStats: {fileID: 1718106537}
-  _uIManager: {fileID: 516735632}
 --- !u!1 &1745350686
 GameObject:
   m_ObjectHideFlags: 0
@@ -20864,85 +19068,6 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
---- !u!1 &1754167526
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1754167529}
-  - component: {fileID: 1754167528}
-  - component: {fileID: 1754167527}
-  m_Layer: 0
-  m_Name: EventSystem
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1754167527
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1754167526}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 01614664b831546d2ae94a42149d80ac, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Unity.InputSystem::UnityEngine.InputSystem.UI.InputSystemUIInputModule
-  m_SendPointerHoverToParent: 1
-  m_MoveRepeatDelay: 0.5
-  m_MoveRepeatRate: 0.1
-  m_XRTrackingOrigin: {fileID: 0}
-  m_ActionsAsset: {fileID: -944628639613478452, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
-  m_PointAction: {fileID: -1654692200621890270, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
-  m_MoveAction: {fileID: -8784545083839296357, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
-  m_SubmitAction: {fileID: 392368643174621059, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
-  m_CancelAction: {fileID: 7727032971491509709, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
-  m_LeftClickAction: {fileID: 3001919216989983466, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
-  m_MiddleClickAction: {fileID: -2185481485913320682, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
-  m_RightClickAction: {fileID: -4090225696740746782, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
-  m_ScrollWheelAction: {fileID: 6240969308177333660, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
-  m_TrackedDevicePositionAction: {fileID: 6564999863303420839, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
-  m_TrackedDeviceOrientationAction: {fileID: 7970375526676320489, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
-  m_DeselectOnBackgroundClick: 1
-  m_PointerBehavior: 0
-  m_CursorLockBehavior: 0
-  m_ScrollDeltaPerTick: 6
---- !u!114 &1754167528
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1754167526}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 76c392e42b5098c458856cdf6ecaaaa1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.EventSystems.EventSystem
-  m_FirstSelected: {fileID: 0}
-  m_sendNavigationEvents: 1
-  m_DragThreshold: 10
---- !u!4 &1754167529
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1754167526}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1764165978
 GameObject:
   m_ObjectHideFlags: 0
@@ -20953,8 +19078,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1764165979}
   - component: {fileID: 1764165982}
+  - component: {fileID: 1764165981}
   - component: {fileID: 1764165980}
-  - component: {fileID: 1764165983}
   m_Layer: 0
   m_Name: Cactus mortal (35)
   m_TagString: Untagged
@@ -21023,6 +19148,18 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1.3125, y: 0.9375}
   m_EdgeRadius: 0
+--- !u!114 &1764165981
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1764165978}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f5dde8d2fd8e6d240bdd688706dc09a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TrampaMortal
 --- !u!212 &1764165982
 SpriteRenderer:
   serializedVersion: 2
@@ -21082,20 +19219,6 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
---- !u!114 &1764165983
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1764165978}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f5dde8d2fd8e6d240bdd688706dc09a7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::TrampaMortal
-  _playerStats: {fileID: 1718106537}
-  _uIManager: {fileID: 516735632}
 --- !u!1 &1765166679
 GameObject:
   m_ObjectHideFlags: 0
@@ -21108,7 +19231,6 @@ GameObject:
   - component: {fileID: 1765166683}
   - component: {fileID: 1765166682}
   - component: {fileID: 1765166681}
-  - component: {fileID: 1765166684}
   m_Layer: 0
   m_Name: Cactus mortal (20)
   m_TagString: Untagged
@@ -21125,7 +19247,7 @@ Transform:
   m_GameObject: {fileID: 1765166679}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 15.440001, y: -5.33, z: 0}
+  m_LocalPosition: {x: 15.48, y: -5.33, z: 0}
   m_LocalScale: {x: 0.7747, y: 0.946, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -21189,8 +19311,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f5dde8d2fd8e6d240bdd688706dc09a7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TrampaMortal
-  _playerStats: {fileID: 1718106537}
-  _uIManager: {fileID: 516735632}
 --- !u!212 &1765166683
 SpriteRenderer:
   serializedVersion: 2
@@ -21250,20 +19370,6 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
---- !u!114 &1765166684
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1765166679}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f5dde8d2fd8e6d240bdd688706dc09a7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::TrampaMortal
-  _playerStats: {fileID: 1718106537}
-  _uIManager: {fileID: 516735632}
 --- !u!1 &1772500588
 GameObject:
   m_ObjectHideFlags: 0
@@ -21402,150 +19508,6 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
---- !u!1 &1777203520
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1777203522}
-  - component: {fileID: 1777203521}
-  - component: {fileID: 1777203524}
-  - component: {fileID: 1777203523}
-  m_Layer: 0
-  m_Name: nube de vida
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!212 &1777203521
-SpriteRenderer:
-  serializedVersion: 2
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1777203520}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 0
-  m_RayTraceProcedural: 0
-  m_RayTracingAccelStructBuildFlagsOverride: 0
-  m_RayTracingAccelStructBuildFlags: 1
-  m_SmallMeshCulling: 1
-  m_ForceMeshLod: -1
-  m_MeshLodSelectionBias: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_GlobalIlluminationMeshLod: 0
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_MaskInteraction: 0
-  m_Sprite: {fileID: 21300000, guid: bd79f3830e84cf543972a859dc0807e8, type: 3}
-  m_Color: {r: 1, g: 0.6462264, b: 0.9037534, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 1.25, y: 0.6875}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_SpriteSortPoint: 0
---- !u!4 &1777203522
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1777203520}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -33.15, y: 5.72, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1777203523
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1777203520}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 891251c5c2be441489798c38d59a292f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Heal
-  _playerStats: {fileID: 1718106537}
-  _uiManger: {fileID: 516735632}
---- !u!70 &1777203524
-CapsuleCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1777203520}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_ForceSendLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ForceReceiveLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ContactCaptureLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_CallbackLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_CompositeOperation: 0
-  m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0.34375}
-  m_Size: {x: 1.25, y: 0.6875}
-  m_Direction: 0
 --- !u!1 &1781688107
 GameObject:
   m_ObjectHideFlags: 0
@@ -21630,90 +19592,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1781688107}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 135.36, y: 1.48, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 144.27911, y: -4.82121, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 788759123}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1782123458
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1782123459}
-  - component: {fileID: 1782123461}
-  - component: {fileID: 1782123460}
-  m_Layer: 5
-  m_Name: Panel perdio
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!224 &1782123459
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1782123458}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 2015488276}
-  - {fileID: 601531695}
-  m_Father: {fileID: 1670786468}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1782123460
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1782123458}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 7142518519572273488, guid: 2e02ea3883506924eb12dde64e939ace, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &1782123461
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1782123458}
-  m_CullTransparentMesh: 1
 --- !u!1 &1798203066
 GameObject:
   m_ObjectHideFlags: 0
@@ -22001,7 +19886,7 @@ GameObject:
   - component: {fileID: 1837613368}
   - component: {fileID: 1837613371}
   - component: {fileID: 1837613370}
-  - component: {fileID: 1837613372}
+  - component: {fileID: 1837613369}
   m_Layer: 0
   m_Name: Cactus mortal (40)
   m_TagString: Untagged
@@ -22024,6 +19909,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 788759123}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1837613369
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1837613367}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f5dde8d2fd8e6d240bdd688706dc09a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TrampaMortal
 --- !u!61 &1837613370
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -22129,20 +20026,6 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
---- !u!114 &1837613372
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1837613367}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f5dde8d2fd8e6d240bdd688706dc09a7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::TrampaMortal
-  _playerStats: {fileID: 1718106537}
-  _uIManager: {fileID: 516735632}
 --- !u!1 &1856587476
 GameObject:
   m_ObjectHideFlags: 0
@@ -22244,8 +20127,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1865465023}
   - component: {fileID: 1865465026}
+  - component: {fileID: 1865465025}
   - component: {fileID: 1865465024}
-  - component: {fileID: 1865465027}
   m_Layer: 0
   m_Name: Cactus mortal (25)
   m_TagString: Untagged
@@ -22314,6 +20197,18 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1.75, y: 1.25}
   m_EdgeRadius: 0
+--- !u!114 &1865465025
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1865465022}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f5dde8d2fd8e6d240bdd688706dc09a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TrampaMortal
 --- !u!212 &1865465026
 SpriteRenderer:
   serializedVersion: 2
@@ -22373,20 +20268,6 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
---- !u!114 &1865465027
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1865465022}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f5dde8d2fd8e6d240bdd688706dc09a7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::TrampaMortal
-  _playerStats: {fileID: 1718106537}
-  _uIManager: {fileID: 516735632}
 --- !u!1 &1899915999
 GameObject:
   m_ObjectHideFlags: 0
@@ -22397,8 +20278,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1899916000}
   - component: {fileID: 1899916003}
+  - component: {fileID: 1899916002}
   - component: {fileID: 1899916001}
-  - component: {fileID: 1899916004}
   m_Layer: 0
   m_Name: Cactus mortal (34)
   m_TagString: Untagged
@@ -22467,6 +20348,18 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1.75, y: 1.25}
   m_EdgeRadius: 0
+--- !u!114 &1899916002
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1899915999}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f5dde8d2fd8e6d240bdd688706dc09a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TrampaMortal
 --- !u!212 &1899916003
 SpriteRenderer:
   serializedVersion: 2
@@ -22526,20 +20419,6 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
---- !u!114 &1899916004
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1899915999}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f5dde8d2fd8e6d240bdd688706dc09a7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::TrampaMortal
-  _playerStats: {fileID: 1718106537}
-  _uIManager: {fileID: 516735632}
 --- !u!1 &1907567642
 GameObject:
   m_ObjectHideFlags: 0
@@ -22631,150 +20510,6 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
---- !u!1 &1915468921
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1915468922}
-  - component: {fileID: 1915468924}
-  - component: {fileID: 1915468923}
-  - component: {fileID: 1915468925}
-  m_Layer: 0
-  m_Name: nube de vida 3
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1915468922
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1915468921}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.68, y: 2.94, z: 0}
-  m_LocalScale: {x: 0.6293063, y: 0.54329926, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1197361150}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1915468923
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1915468921}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 891251c5c2be441489798c38d59a292f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Heal
-  _playerStats: {fileID: 1718106537}
-  _uiManger: {fileID: 0}
---- !u!212 &1915468924
-SpriteRenderer:
-  serializedVersion: 2
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1915468921}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 0
-  m_RayTraceProcedural: 0
-  m_RayTracingAccelStructBuildFlagsOverride: 0
-  m_RayTracingAccelStructBuildFlags: 1
-  m_SmallMeshCulling: 1
-  m_ForceMeshLod: -1
-  m_MeshLodSelectionBias: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_GlobalIlluminationMeshLod: 0
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_MaskInteraction: 0
-  m_Sprite: {fileID: 21300000, guid: bd79f3830e84cf543972a859dc0807e8, type: 3}
-  m_Color: {r: 1, g: 0.6462264, b: 0.9037534, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 1.25, y: 0.6875}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_SpriteSortPoint: 0
---- !u!70 &1915468925
-CapsuleCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1915468921}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_ForceSendLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ForceReceiveLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ContactCaptureLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_CallbackLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_CompositeOperation: 0
-  m_CompositeOrder: 0
-  m_Offset: {x: -0.0000019073486, y: 0.34375}
-  m_Size: {x: 1.2500001, y: 0.6875}
-  m_Direction: 0
 --- !u!1 &1923465300
 GameObject:
   m_ObjectHideFlags: 0
@@ -23062,7 +20797,7 @@ GameObject:
   - component: {fileID: 1938921181}
   - component: {fileID: 1938921184}
   - component: {fileID: 1938921183}
-  - component: {fileID: 1938921185}
+  - component: {fileID: 1938921182}
   m_Layer: 0
   m_Name: Cactus mortal (1)
   m_TagString: Untagged
@@ -23085,6 +20820,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 788759123}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1938921182
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1938921180}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f5dde8d2fd8e6d240bdd688706dc09a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TrampaMortal
 --- !u!61 &1938921183
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -23190,20 +20937,6 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
---- !u!114 &1938921185
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1938921180}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f5dde8d2fd8e6d240bdd688706dc09a7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::TrampaMortal
-  _playerStats: {fileID: 1718106537}
-  _uIManager: {fileID: 516735632}
 --- !u!1 &1941284314
 GameObject:
   m_ObjectHideFlags: 0
@@ -23216,7 +20949,6 @@ GameObject:
   - component: {fileID: 1941284318}
   - component: {fileID: 1941284317}
   - component: {fileID: 1941284316}
-  - component: {fileID: 1941284319}
   m_Layer: 0
   m_Name: Cactus mortal (24)
   m_TagString: Untagged
@@ -23297,8 +21029,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f5dde8d2fd8e6d240bdd688706dc09a7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TrampaMortal
-  _playerStats: {fileID: 1718106537}
-  _uIManager: {fileID: 0}
 --- !u!212 &1941284318
 SpriteRenderer:
   serializedVersion: 2
@@ -23358,20 +21088,6 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
---- !u!114 &1941284319
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1941284314}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f5dde8d2fd8e6d240bdd688706dc09a7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::TrampaMortal
-  _playerStats: {fileID: 1718106537}
-  _uIManager: {fileID: 516735632}
 --- !u!1 &1984004959
 GameObject:
   m_ObjectHideFlags: 0
@@ -23692,6 +21408,143 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!1 &2005641468
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2005641469}
+  - component: {fileID: 2005641471}
+  - component: {fileID: 2005641470}
+  m_Layer: 5
+  m_Name: Text (TMP)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &2005641469
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2005641468}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1363786085}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5592963}
+  m_AnchoredPosition: {x: 55, y: 442}
+  m_SizeDelta: {x: 200, y: -9.851}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &2005641470
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2005641468}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.TextMeshPro::TMPro.TextMeshProUGUI
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: 00.00
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 70
+  m_fontSizeBase: 70
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 1
+  m_VerticalAlignment: 256
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_characterHorizontalScale: 1
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_TextWrappingMode: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 0
+  m_ActiveFontFeatures: 6e72656b
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_EmojiFallbackSupport: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &2005641471
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2005641468}
+  m_CullTransparentMesh: 1
 --- !u!1 &2014760290
 GameObject:
   m_ObjectHideFlags: 0
@@ -23704,7 +21557,6 @@ GameObject:
   - component: {fileID: 2014760294}
   - component: {fileID: 2014760293}
   - component: {fileID: 2014760292}
-  - component: {fileID: 2014760295}
   m_Layer: 0
   m_Name: Cactus mortal (12)
   m_TagString: Untagged
@@ -23721,7 +21573,7 @@ Transform:
   m_GameObject: {fileID: 2014760290}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 8.420001, y: -5.31, z: 0}
+  m_LocalPosition: {x: 8.46, y: -5.31, z: 0}
   m_LocalScale: {x: 0.8766, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -23785,8 +21637,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f5dde8d2fd8e6d240bdd688706dc09a7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TrampaMortal
-  _playerStats: {fileID: 1718106537}
-  _uIManager: {fileID: 516735632}
 --- !u!212 &2014760294
 SpriteRenderer:
   serializedVersion: 2
@@ -23846,152 +21696,6 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
---- !u!114 &2014760295
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2014760290}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f5dde8d2fd8e6d240bdd688706dc09a7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::TrampaMortal
-  _playerStats: {fileID: 1718106537}
-  _uIManager: {fileID: 516735632}
---- !u!1 &2015488275
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2015488276}
-  - component: {fileID: 2015488279}
-  - component: {fileID: 2015488278}
-  - component: {fileID: 2015488277}
-  m_Layer: 5
-  m_Name: main menu
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &2015488276
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2015488275}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1782123459}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 3.5, y: -162}
-  m_SizeDelta: {x: 153.584, y: 53.7915}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &2015488277
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2015488275}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Button
-  m_Navigation:
-    m_Mode: 3
-    m_WrapAround: 0
-    m_SelectOnUp: {fileID: 0}
-    m_SelectOnDown: {fileID: 0}
-    m_SelectOnLeft: {fileID: 0}
-    m_SelectOnRight: {fileID: 0}
-  m_Transition: 1
-  m_Colors:
-    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
-    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
-    m_ColorMultiplier: 1
-    m_FadeDuration: 0.1
-  m_SpriteState:
-    m_HighlightedSprite: {fileID: 0}
-    m_PressedSprite: {fileID: 0}
-    m_SelectedSprite: {fileID: 0}
-    m_DisabledSprite: {fileID: 0}
-  m_AnimationTriggers:
-    m_NormalTrigger: Normal
-    m_HighlightedTrigger: Highlighted
-    m_PressedTrigger: Pressed
-    m_SelectedTrigger: Selected
-    m_DisabledTrigger: Disabled
-  m_Interactable: 1
-  m_TargetGraphic: {fileID: 2015488278}
-  m_OnClick:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1301541775}
-        m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
-        m_MethodName: CargarEscena
-        m_Mode: 3
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
---- !u!114 &2015488278
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2015488275}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.03529412}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &2015488279
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2015488275}
-  m_CullTransparentMesh: 1
 --- !u!1 &2017679008
 GameObject:
   m_ObjectHideFlags: 0
@@ -24002,8 +21706,8 @@ GameObject:
   m_Component:
   - component: {fileID: 2017679010}
   - component: {fileID: 2017679009}
-  - component: {fileID: 2017679011}
   - component: {fileID: 2017679012}
+  - component: {fileID: 2017679011}
   m_Layer: 0
   m_Name: Cactus mortal
   m_TagString: Untagged
@@ -24143,8 +21847,81 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f5dde8d2fd8e6d240bdd688706dc09a7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TrampaMortal
-  _playerStats: {fileID: 1718106537}
-  _uIManager: {fileID: 516735632}
+--- !u!1 &2021881900
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2021881901}
+  - component: {fileID: 2021881903}
+  - component: {fileID: 2021881902}
+  m_Layer: 5
+  m_Name: Image
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &2021881901
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2021881900}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1363786085}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -511.8939, y: 410}
+  m_SizeDelta: {x: 702.0395, y: 106.3644}
+  m_Pivot: {x: 0.5000012, y: 0.5000015}
+--- !u!114 &2021881902
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2021881900}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.01001776, g: 0.7584905, b: 0.23746775, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 0}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &2021881903
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2021881900}
+  m_CullTransparentMesh: 1
 --- !u!1 &2041394003
 GameObject:
   m_ObjectHideFlags: 0
@@ -24246,8 +22023,8 @@ GameObject:
   m_Component:
   - component: {fileID: 2048281756}
   - component: {fileID: 2048281759}
+  - component: {fileID: 2048281758}
   - component: {fileID: 2048281757}
-  - component: {fileID: 2048281760}
   m_Layer: 0
   m_Name: Cactus mortal (7)
   m_TagString: Untagged
@@ -24264,7 +22041,7 @@ Transform:
   m_GameObject: {fileID: 2048281755}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.110001, y: -5.3, z: 0}
+  m_LocalPosition: {x: 1.15, y: -5.3, z: 0}
   m_LocalScale: {x: 0.7747, y: 0.946, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -24316,6 +22093,18 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1.75, y: 1.25}
   m_EdgeRadius: 0
+--- !u!114 &2048281758
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2048281755}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f5dde8d2fd8e6d240bdd688706dc09a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TrampaMortal
 --- !u!212 &2048281759
 SpriteRenderer:
   serializedVersion: 2
@@ -24375,110 +22164,6 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
---- !u!114 &2048281760
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2048281755}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f5dde8d2fd8e6d240bdd688706dc09a7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::TrampaMortal
-  _playerStats: {fileID: 1718106537}
-  _uIManager: {fileID: 516735632}
---- !u!1 &2057136760
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2057136761}
-  - component: {fileID: 2057136763}
-  - component: {fileID: 2057136762}
-  - component: {fileID: 2057136764}
-  m_Layer: 5
-  m_Name: 'Panel ganaste '
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!224 &2057136761
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2057136760}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 786059165}
-  m_Father: {fileID: 1670786468}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -12.126, y: 0}
-  m_SizeDelta: {x: -24.252, y: 0}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &2057136762
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2057136760}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 5120940934649208145, guid: 23e929d87f717534b993d937b54d01e7, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &2057136763
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2057136760}
-  m_CullTransparentMesh: 1
---- !u!114 &2057136764
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2057136760}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fc9b1cc40ccf61446b0db37f63030555, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ganaste
-  panelganaste: {fileID: 2057136760}
 --- !u!1 &2058847350
 GameObject:
   m_ObjectHideFlags: 0
@@ -25360,7 +23045,6 @@ GameObject:
   - component: {fileID: 2095410138}
   - component: {fileID: 2095410137}
   - component: {fileID: 2095410136}
-  - component: {fileID: 2095410139}
   m_Layer: 0
   m_Name: Cactus mortal (4)
   m_TagString: Untagged
@@ -25377,7 +23061,7 @@ Transform:
   m_GameObject: {fileID: 2095410134}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2.47, y: -5.37, z: 0}
+  m_LocalPosition: {x: 2.44, y: -5.37, z: 0}
   m_LocalScale: {x: 0.7747, y: 0.946, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -25441,8 +23125,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f5dde8d2fd8e6d240bdd688706dc09a7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TrampaMortal
-  _playerStats: {fileID: 1718106537}
-  _uIManager: {fileID: 516735632}
 --- !u!212 &2095410138
 SpriteRenderer:
   serializedVersion: 2
@@ -25502,20 +23184,6 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
---- !u!114 &2095410139
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2095410134}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f5dde8d2fd8e6d240bdd688706dc09a7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::TrampaMortal
-  _playerStats: {fileID: 1718106537}
-  _uIManager: {fileID: 516735632}
 --- !u!1 &2100701516
 GameObject:
   m_ObjectHideFlags: 0
@@ -26208,15 +23876,9 @@ SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
   - {fileID: 1565647793}
-  - {fileID: 1718106532}
   - {fileID: 788759123}
   - {fileID: 1192528994}
-  - {fileID: 1215004811}
-  - {fileID: 1781688109}
-  - {fileID: 1670786468}
-  - {fileID: 67267249}
-  - {fileID: 1754167529}
-  - {fileID: 516735633}
-  - {fileID: 1777203522}
-  - {fileID: 543245937}
-  - {fileID: 1301541776}
+  - {fileID: 1718106532}
+  - {fileID: 1326590577}
+  - {fileID: 1363786085}
+  - {fileID: 600529998}
